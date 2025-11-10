@@ -1,8 +1,11 @@
-from data_classes.fooditem import FoodItem
-from data_classes.meal import Meal
-from data_classes.review import Review
+from APIs.thomas_menu_api import ThomasMenuAPI
+from APIs.read_json_api import ThomasMenu
 
 def main():
-    pass  # Placeholder for main controller logic
+    menu = ThomasMenuAPI()
+    menu.save_json('thomas_menu.json')
+
+    menuReader = ThomasMenu()
+    foodItems = menuReader.parse_food_items()
 
 main()
