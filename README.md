@@ -1,16 +1,15 @@
 # TCDineEval Minimum Viable Product:
 ***Note***: *User ID may be optional if we want it to be anonymous - though we risk review-bombing*
-### User Story:
-**Viewing**
-- I should be able to view the current meal depending on what time of day it is
-- I should be able to see the overall rating of the meal based on the food items inside
-- I should be able to open the meal and see all of the food items in the current meal
-- I should be able to see the current rating of each of the food items
-- I should be able to see the overall average rating of each of the food items from past times it has been served.
-- I should be able to open the food item and view individual user comments/ratings of the item on the current day.
 
-**Actions**
-- I should be able to create a review of a food item and give it a 1-5 star rating as well as add a comment.
+### Frontend Output
+#### thomas_menu.py
+```
+Initialize ThomasMenu
+ThomasMenu.save_json() - saves json file to current directory - NEEDED right now, will be changed to database later
+ThomasMenu.parse_food_items() - returns a list of FoodItems.
+print(FoodItem) gives all details of FoodItem (take what you need just by doing FoodItem.item)
+ratemymeal_backend.py has sample usage.
+```
 
 ## Backend Systems
 
@@ -44,5 +43,3 @@ Should be hardcoded to have only 4 meals:
 | rating | float/double | rating they give |
 | message | string | message they want to leave |
 | date | string-date-format (in EST) | to get the date of review for later usage |
-
-## Frontend Systems (other team below)
