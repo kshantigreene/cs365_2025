@@ -25,6 +25,9 @@ class ThomasMenu:
             json.dump(self.__menu, f, indent=4)
 
     def parse_food_items(self) -> list[FoodItem]: # Relies on JSON being made
+        if not self.__menu:
+            self.__menu = self.get_menu(get_current_date_str())
+
         with open("thomas_menu.json", "r", encoding="utf-8") as f:
             data = json.load(f)
 

@@ -6,4 +6,8 @@ def main():
 
     foodItems = menu.parse_food_items()
 
+    for item in foodItems:
+        print(f"{item}")
+        print("-" * 40)
+
 main()
