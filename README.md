@@ -2,17 +2,13 @@
 ***Note***: *User ID may be optional if we want it to be anonymous - though we risk review-bombing*
 
 ### Frontend Output
-#### ratemymeal_api.py
+#### thomas_menu.py
 ```
-get_breakfast(), get_snack(), get_lunch(), get_dinner() - returns dictionary of food item & calories IN THAT MEAL (ex: {name="Cheese Pizza",calories=150})
-
-get_full_menu() - retuns dictionary of meal, food item, calories (ex: {meal="Breakfast",name="Waffles",calories="250"})
-
-get_rating(food) - returns average 5.0 rating of food item (food parameter can just be a string)
-
-get_rating(meal) - returns average 5.0 rating of that meal (meal parameter can just be a string)
-
-get_comments(food) - returns a dictionary of comments (ex: {userID: 123123, message="this was great!", rating=4.8})
+Initialize ThomasMenu
+ThomasMenu.save_json() - saves json file to current directory - NEEDED right now, will be changed to database later
+ThomasMenu.parse_food_items() - returns a list of FoodItems.
+print(FoodItem) gives all details of FoodItem (take what you need just by doing FoodItem.item)
+ratemymeal_backend.py has sample usage.
 ```
 
 ## Backend Systems
