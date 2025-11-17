@@ -108,40 +108,45 @@ class ThomasMenu:
 
     def save_menu_with_ratings(self, food_items: list[FoodItem], output_path: str):
 
+        # Load the full menu data
         with open("thomas_menu.json", "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        # Create a lookup: name -> FoodItem
+        # Lookup by item name
         lookup = {f.name: f for f in food_items}
 
-        # Rebuild the JSON
-        new_data = []
+        output_items = []
 
         for meal in data:
-            new_meal = {
-                "name": meal["name"],
-                "groups": []
-            }
+            meal_name = meal.get("name", "")
 
-            for group in meal["groups"]:
-                new_group = {
-                    "name": group["name"],
-                    "items": []
-                }
+            for group in meal.get("groups", []):
+                group_name = group.get("name", "")
 
-                for item in group["items"]:
+                for item in group.get("items", []):
                     name = item.get("formalName", "")
 
+                    enriched = item.copy()
+
+                    # Add rating fields
                     if name in lookup:
-                        # Replace item with enriched version
-                        new_group["items"].append(lookup[name].to_json())
+                        food_json = lookup[name].to_json()
+                        enriched["ratingOverall"] = food_json["ratingOverall"]
+                        enriched["ratingToday"] = food_json["ratingToday"]
+                        enriched["ratingCount"] = food_json["ratingCount"]
                     else:
-                        # fallback: keep original
-                        new_group["items"].append(item)
+                        enriched.setdefault("ratingOverall", 0.0)
+                        enriched.setdefault("ratingToday", 0.0)
+                        enriched.setdefault("ratingCount", 0)
 
-                new_meal["groups"].append(new_group)
+                    # Build the requested output structure
+                    output_items.append({
+                        "ItemName": name,
+                        "Meal": meal_name,
+                        "Group": group_name,
+                        "Meta": enriched
+                    })
 
-            new_data.append(new_meal)
-
+        # Save final JSON
         with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(new_data, f, indent=4)
+            json.dump(output_items, f, indent=4)
