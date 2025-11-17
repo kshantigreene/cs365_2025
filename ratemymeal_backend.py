@@ -1,4 +1,4 @@
-from APIs.thomas_menu import ThomasMenu
+from backend.APIs.thomas_menu import ThomasMenu
 
 def main():
     menu = ThomasMenu()
