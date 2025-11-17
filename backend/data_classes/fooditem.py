@@ -1,4 +1,4 @@
-from review import Review
+from data_classes.review import Review
 from dataclasses import dataclass, field
 
 @dataclass
@@ -39,7 +39,7 @@ class FoodItem:
     isSwell: bool = False
     isPlantBased: bool = False
 
-    reviews: list[Review]
+    reviews: list[Review] = field(default_factory=list)
     overallRating: float = 0.0
     todayRating: float = 0.0
 
@@ -106,3 +106,45 @@ class FoodItem:
             f"Number of Reviews: {len(self.reviews)}"
         ]
         return "\n".join(info)
+    
+    def to_json(self) -> dict:
+        return {
+            "formalName": self.name,
+            "description": self.description,
+            "ingredients": "; ".join(self.ingredients),
+            "allergens": [{"name": a} for a in self.allergens],
+
+            "calories": self.calories,
+            "caloriesFromFat": self.caloriesFromFat,
+
+            "fat": self.fat,
+            "saturatedFat": self.saturatedFat,
+            "transFat": self.transFat,
+            "polyunsaturatedFat": self.polyunsaturatedFat,
+            "cholesterol": self.cholesterol,
+            "sodium": self.sodium,
+            "carbohydrates": self.carbohydrates,
+            "dietaryFiber": self.dietaryFiber,
+            "sugar": self.sugar,
+            "protein": self.protein,
+            "potassium": self.potassium,
+            "iron": self.iron,
+            "calcium": self.calcium,
+            "vitaminA": self.vitaminA,
+            "vitaminC": self.vitaminC,
+            "vitaminD": self.vitaminD,
+
+            "portionSize": self.portionSize,
+            "portion": self.portion,
+
+            "isVegan": self.isVegan,
+            "isVegetarian": self.isVegetarian,
+            "isMindful": self.isMindful,
+            "isSwell": self.isSwell,
+            "isPlantBased": self.isPlantBased,
+
+            "ratingOverall": self.overallRating,
+            "ratingToday": self.todayRating,
+            "ratingCount": len(self.reviews)
+        }
+

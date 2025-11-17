@@ -6,10 +6,9 @@ def main():
 
     foodItems = menu.parse_food_items()
 
-    for item in foodItems:
-        print(f"{item}")
-        print("-" * 40)
+    menu.save_menu_with_ratings(foodItems, 'thomas_menu_with_ratings.json')
 
+    print("Menu with ratings saved to 'thomas_menu_with_ratings.json'")
         
 
 main()
