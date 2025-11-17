@@ -1,0 +1,102 @@
+import json
+import boto3
+from botocore.exceptions import ClientError, NoCredentialsError
+
+# -------------------------------
+# AWS CONFIGURATION (EDIT THESE)
+# -------------------------------
+AWS_ACCESS_KEY = "YOUR_AWS_ACCESS_KEY"
+AWS_SECRET_KEY = "YOUR_AWS_SECRET_KEY"
+AWS_REGION = "us-east-1"
+
+DYNAMO_TABLE = "menus"   # Name of your DynamoDB table
+LOCAL_FILE = "master.json"         # File created by your merge script
+# -------------------------------
+
+
+def create_table_if_missing(dynamodb):
+    """Creates the table if it does not exist."""
+    try:
+        table = dynamodb.Table(DYNAMO_TABLE)
+        table.load()
+        print(f"Table '{DYNAMO_TABLE}' already exists.")
+        return table
+
+    except ClientError as e:
+        if e.response["Error"]["Code"] != "ResourceNotFoundException":
+            raise
+
+    # Create table
+    print(f"Creating DynamoDB table '{DYNAMO_TABLE}'...")
+    table = dynamodb.create_table(
+        TableName=DYNAMO_TABLE,
+        KeySchema=[
+            {"AttributeName": "ItemName", "KeyType": "HASH"}
+        ],
+        AttributeDefinitions=[
+            {"AttributeName": "ItemName", "AttributeType": "S"}
+        ],
+        BillingMode="PAY_PER_REQUEST"
+    )
+
+    table.wait_until_exists()
+    print("Table created.")
+    return table
+
+
+def upload_to_dynamodb():
+    # Connect to AWS DynamoDB
+    dynamodb = boto3.resource(
+        "dynamodb",
+        region_name=AWS_REGION,
+        aws_access_key_id=AWS_ACCESS_KEY,
+        aws_secret_access_key=AWS_SECRET_KEY
+    )
+
+    # Ensure table exists
+    table = create_table_if_missing(dynamodb)
+
+    # Load master JSON file
+    try:
+        with open(LOCAL_FILE, "r", encoding="utf-8") as f:
+            master = json.load(f)
+    except FileNotFoundError:
+        print(f"Error: Could not find {LOCAL_FILE}")
+        return
+
+    print(f"Uploading items from {LOCAL_FILE} into DynamoDB...\n")
+
+    count = 0
+
+    # Iterate through meals → groups → items
+    for meal in master:
+        meal_name = meal["name"]
+
+        for group in meal.get("groups", []):
+            group_name = group["name"]
+
+            for item in group.get("items", []):
+                item_name = item["formalName"].strip()
+
+                try:
+                    table.put_item(
+                        Item={
+                            "ItemName": item_name,
+                            "Meal": meal_name,
+                            "Group": group_name,
+                            "Meta": item  # full item JSON stored here
+                        }
+                    )
+                    count += 1
+
+                except ClientError as e:
+                    print(f"Failed to upload {item_name}:", e)
+
+    print(f"\nUpload complete: {count} items added to DynamoDB.")
+
+
+if __name__ == "__main__":
+    try:
+        upload_to_dynamodb()
+    except NoCredentialsError:
+        print("ERROR: Invalid AWS credentials.")
