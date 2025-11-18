@@ -1,21 +1,34 @@
 import json
-import datetime # note to self: for today's date and file age calculation
-import requests # for API calls 
+import datetime 
+import requests 
 import os 
-import re  #  for finding dates in filenames
+import re  
+import boto3  # <-- NEW: Import the AWS library
 
 # configuration
 API_KEY = "68717828-b754-420d-9488-4c37cb7d7ef7"
 BASE_URL = "https://api-prd.sodexomyway.net/v0.2/data/menu/94311001/14863"
 
+# --- NEW: Initialize DynamoDB ---
+# Boto3 will automatically find the credentials you set with 'aws configure'
+try:
+    dynamodb = boto3.resource('dynamodb')
+    table = dynamodb.Table('menus') # Your database name
+    print("Successfully connected to DynamoDB table 'menus'.\n")
+except Exception as e:
+    print(f"Error connecting to DynamoDB: {e}")
+    print("Please ensure your AWS credentials and region are correct.")
+    input("\nPress Enter to exit...")
+    exit()
+# --- END NEW ---
+
 # determmine today's date and filename
 today = datetime.date.today()
 filename = f"menu_{today}.json"
 
-# cleans up old files (older than 7 days) ---
+# ... (your file cleanup code remains exactly the same) ...
 print("Checking for old menu files to delete...")
-pattern = re.compile(r"menu_(\d{4}-\d{2}-\d{2})\.json") # regex to match filenames like menu_YYYY-MM-DD.json
-
+pattern = re.compile(r"menu_(\d{4}-\d{2}-\d{2})\.json") 
 for file in os.listdir("."):
     match = pattern.match(file)
     if match:
@@ -26,61 +39,82 @@ for file in os.listdir("."):
                 os.remove(file)
                 print(f"   Deleted old file: {file}")
         except ValueError:
-            pass  # skip files that don't fit the date format
+            pass  
 print(" Cleanup complete.\n")
 
-#  Checks if today's menu file exists locally
+# ... (your file downloading/loading code remains exactly the same) ...
 if os.path.exists(filename):
     print(f" Found today's menu file: {filename}")
-    with open(filename, "r", encoding="utf-8") as f: # what does utf-8 do again? # it handles special characters properly
+    with open(filename, "r", encoding="utf-8") as f: 
         menu_data = json.load(f)
 else:
     print(f" No local file for today ({today}).")
     print("Downloading from Sodexo API...")
-
-    # fetch today's menu from the API
     url = f"{BASE_URL}?date={today}"
-    headers = {
-        "api-key": API_KEY,
-        "Accept": "application/json",
-        "Origin": "https://thomas.sodexomyway.com",
-        "Referer": "https://thomas.sodexomyway.com/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-    }
-
+    headers = { "api-key": API_KEY, "Accept": "application/json", "Origin": "https://thomas.sodexomyway.com", "Referer": "https://thomas.sodexomyway.com/", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" }
     try:
         response = requests.get(url, headers=headers)
         response.raise_for_status()
         menu_data = response.json()
-
-        # --- SAVE NEW FILE ---
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(menu_data, f, indent=2, ensure_ascii=False)
         print(f" Saved today's menu to {filename}")
-
     except requests.RequestException as e:
         print(" Error downloading menu data:", e)
         input("\nPress Enter to exit...")
         exit()
 
-# this displays the menu and prompts for ratings under each item
+
+# --- MODIFIED: This section now saves ratings to DynamoDB ---
+# --- MODIFIED: This section now saves ratings to DynamoDB ---
 print(f"\n Showing menu for {today}:\n")
 for meal in menu_data:
-    print(f"=== {meal['name']} ===") # display meal name
-    for group in meal.get("groups", []): # loop through each group in the meal
-        print(f"  {group['name']}:") # display group name
-        for item in group.get("items", []): # loop through each menu item
-            print(f"    - {item['formalName']}") # display item name
-            # Prompt for rating
-            while True: # while what is true? # to keep asking until valid input or skip
+    print(f"=== {meal['name']} ===") 
+    for group in meal.get("groups", []): 
+        print(f"  {group['name']}:") 
+        for item in group.get("items", []): 
+            print(f"    - {item['formalName']}") 
+
+            # --- THIS IS THE KEY CHANGE ---
+            # We are now using 'menuItemId' from your JSON file
+            item_api_id = item.get('menuItemId') 
+            
+            if not item_api_id:
+                print("      (Warning: Could not find an ID for this item, cannot save rating.)")
+                continue # Skip to the next item
+
+            while True: 
                 rating_input = input(f"      Rate '{item['formalName']}' (1-5 stars, or Enter to skip): ").strip()
-                if not rating_input: # User pressed Enter to skip
-                    break # skip rating this item
-                try: # try to convert input to integer
+                if not rating_input: 
+                    break 
+                try: 
                     rating = int(rating_input)
                     if 1 <= rating <= 5:
                         print(f"      Your rating: {'*' * rating}")
-                        break
+                        
+                        # --- NEW: Save to DynamoDB ---
+                        try:
+                            # We can add more useful data to the item we're saving
+                            table.put_item(
+                                Item={
+                                    'item_id': str(item_api_id),  # Your PK
+                                    'rating': rating,
+                                    'rating_date': str(today),
+                                    'itemName': item.get('formalName'),
+                                    'meal': meal.get('name'),
+                                    'description': item.get('description', ''), # Use .get() for safety
+                                    'calories': item.get('calories', 'N/A'),
+                                    'isVegetarian': item.get('isVegetarian', False),
+                                    'isVegan': item.get('isVegan', False),
+                                    'allergens': item.get('allergens', [])
+                                }
+                            )
+                            print("      Rating saved to DynamoDB!")
+                        except Exception as e:
+                            print(f"  --  Error saving rating to DynamoDB: {e}")
+                        # --- END NEW ---
+                        
+                        break # Exit the 'while' loop
                     else:
                         print("  --  Invalid rating. Please enter a number between 1 and 5.")
                 except ValueError:
