@@ -1,3 +1,6 @@
 # backend deps
 boto3
 requests
+fastapi
+uvicorn
+pydantic

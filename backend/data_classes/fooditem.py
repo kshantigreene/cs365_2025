@@ -1,4 +1,6 @@
-from data_classes.review import Review
+from __future__ import annotations
+from typing import Optional
+from backend.data_classes.review import Review
 from dataclasses import dataclass, field
 
 @dataclass
@@ -43,7 +45,7 @@ class FoodItem:
     overallRating: float = 0.0
     todayRating: float = 0.0
 
-    def addReview(self, review: Review, today: str | None = None) -> None:
+    def addReview(self, review: Review, today: Optional[str] = None) -> None:
         self.reviews.append(review)
         self.calculateOverallRating()
         if today:

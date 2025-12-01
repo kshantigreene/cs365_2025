@@ -1,0 +1,30 @@
+[
+  {
+    "id": "r-1",
+    "foodItemId": "avocado-toast",
+    "rating": 5,
+    "comment": "Perfect crunch and seasoning. Would eat every morning!",
+    "date": "2025-01-15T08:30:00.000Z"
+  },
+  {
+    "id": "r-2",
+    "foodItemId": "avocado-toast",
+    "rating": 4,
+    "comment": "Great flavor but could use a bit more lemon.",
+    "date": "2025-01-14T08:45:00.000Z"
+  },
+  {
+    "id": "r-3",
+    "foodItemId": "grilled-salmon-bowl",
+    "rating": 5,
+    "comment": "Salmon was super tender and the farro was seasoned well.",
+    "date": "2025-01-15T18:25:00.000Z"
+  },
+  {
+    "id": "r-4",
+    "foodItemId": "butternut-squash-risotto",
+    "rating": 3,
+    "comment": "Too salty today but still creamy.",
+    "date": "2025-01-15T19:10:00.000Z"
+  }
+]

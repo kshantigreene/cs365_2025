@@ -1,7 +1,13 @@
-from data_classes.fooditem import FoodItem
+from __future__ import annotations
+
 import json
+from pathlib import Path
+from typing import Any, Optional, Union
+
 import requests
-from helper_functions import get_current_date_str
+
+from backend.data_classes.fooditem import FoodItem
+from backend.helper_functions import get_current_date_str
 
 class ThomasMenu:
 
@@ -11,25 +17,33 @@ class ThomasMenu:
         "Accept": "application/json"
     }
 
-    def __init__(self):
-        self.__menu = self.get_menu(get_current_date_str())
+    def __init__(self, cache_path: Union[str, Path] = "thomas_menu.json"):
+        self._cache_path = Path(cache_path)
+        self.__menu: Optional[list[dict[str, Any]]] = None
+        if self._cache_path.exists():
+            self.__menu = json.loads(self._cache_path.read_text(encoding="utf-8"))
+        else:
+            self.refresh_menu()
 
     def get_menu(self, date: str): # date format: 'YYYY-MM-DD'
         params = {"date": date}
         response = requests.get(self.BASE_URL, headers=self.HEADERS, params=params)
         return response.json()
     
+    def refresh_menu(self) -> None:
+        self.__menu = self.get_menu(get_current_date_str())
+        if self.__menu:
+            self._cache_path.write_text(json.dumps(self.__menu, indent=2), encoding="utf-8")
+
     def save_json(self, file_path: str):
-        with open(file_path, 'w') as f:
-            import json
-            json.dump(self.__menu, f, indent=4)
+        if self.__menu is None:
+            self.refresh_menu()
+        Path(file_path).write_text(json.dumps(self.__menu, indent=2), encoding="utf-8")
 
     def parse_food_items(self) -> list[FoodItem]:
-        if not self.__menu:
-            self.__menu = self.get_menu(get_current_date_str())
-
-        with open("thomas_menu.json", "r", encoding="utf-8") as f:
-            data = json.load(f)
+        if self.__menu is None:
+            self.refresh_menu()
+        data = self.__menu
 
         food_items = []
 
@@ -109,8 +123,9 @@ class ThomasMenu:
     def save_menu_with_ratings(self, food_items: list[FoodItem], output_path: str):
 
         # Load the full menu data
-        with open("thomas_menu.json", "r", encoding="utf-8") as f:
-            data = json.load(f)
+        if self.__menu is None:
+            self.refresh_menu()
+        data = self.__menu
 
         # Lookup by item name
         lookup = {f.name: f for f in food_items}
