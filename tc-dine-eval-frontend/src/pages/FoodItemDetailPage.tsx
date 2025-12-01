@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-import { useParams } from "react-router-dom";
-export default function FoodItemDetailPage() {
-  const { id } = useParams();
-  return <h1 style={{padding:16}}>Food Item ID: {id}</h1>;
-}
-=======
 import { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 
@@ -621,4 +614,3 @@ export default function FoodItemDetailPage() {
     </div>
   );
 }
->>>>>>> d28bd9aea6d516f218774cdf28f516c9fca1d6cb

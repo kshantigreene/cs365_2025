@@ -1,17 +1,5 @@
 import type { Review } from "./review";
 
-<<<<<<< HEAD
-export type MealName = "BREAKFAST" | "LUNCH" | "AFTERNOON_SNACK" | "DINNER";
-
-export interface FoodItem {
-  id: string;
-  name: string;
-  meal: MealName;
-  reviews?: Review[];
-  activeRating: number;
-  overallRating: number;
-}
-=======
 export type MealType = "BREAKFAST" | "LUNCH" | "AFTERNOON_SNACK" | "DINNER";
 
 export interface FoodItem {
@@ -60,4 +48,3 @@ export interface FoodItem {
 
 
 
->>>>>>> d28bd9aea6d516f218774cdf28f516c9fca1d6cb

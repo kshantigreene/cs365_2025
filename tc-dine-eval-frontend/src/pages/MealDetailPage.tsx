@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-import { useParams, Link } from "react-router-dom";
-
-export default function MealDetailPage() {
-  const { mealType } = useParams();
-
-  return (
-    <main style={{ padding: 16 }}>
-      <h1>Meal Detail</h1>
-      <p>mealType: <b>{mealType}</b></p>
-
-      <Link to="/">← Back to Home</Link>
-    </main>
-  );
-}
-=======
 import { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 
@@ -496,4 +480,3 @@ export default function MealDetailPage() {
     </div>
   );
 }
->>>>>>> d28bd9aea6d516f218774cdf28f516c9fca1d6cb

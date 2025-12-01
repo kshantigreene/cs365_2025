@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-import { api } from "./api";
-import type { Review } from "../types/review";
-
-export async function submitReview(payload: {
-  foodItemId: string;
-  rating: number;
-  message: string;
-  userID?: string | null;
-}): Promise<Review> {
-  const { data } = await api.post("/reviews", payload);
-  return data;
-}
-=======
 import { useQuery } from "@tanstack/react-query";
 import { api, hasRemoteBackend } from "./api";
 import type { Review } from "../types/review";
@@ -101,4 +87,3 @@ export function useReviews(foodItemId: string | undefined) {
 
 
 
->>>>>>> d28bd9aea6d516f218774cdf28f516c9fca1d6cb

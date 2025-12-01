@@ -14,12 +14,8 @@
     "axios": "^1.13.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-<<<<<<< HEAD
-    "react-router-dom": "^7.9.5"
-=======
     "react-router-dom": "^7.9.6",
     "zod": "^4.1.12"
->>>>>>> d28bd9aea6d516f218774cdf28f516c9fca1d6cb
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-import type { FoodItem } from "./foodItem";
-import type { MealName } from "./foodItem";
-
-export interface Meal {
-  name: MealName;
-  foodItems: FoodItem[];
-  mealRating: number;
-}
-=======
 import type { FoodItem, MealType } from "./foodItem";
 
 export interface FoodGroup {
@@ -26,4 +16,3 @@ export interface Meal {
 
 
 
->>>>>>> d28bd9aea6d516f218774cdf28f516c9fca1d6cb
