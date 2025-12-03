@@ -1,0 +1,3437 @@
+[
+  {
+    "name": "BREAKFAST",
+    "groups": [
+      {
+        "name": "BREAKFAST PASTRY",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "BREAKFAST PASTRY",
+            "courseSortOrder": 0,
+            "meal": "BREAKFAST",
+            "menuItemId": 7012374624,
+            "formalName": "Glazed Cinnamon Roll",
+            "description": "Fresh baked cinnamon roll with confection sugar drizzle",
+            "price": 0.0,
+            "ingredients": "Cinnamon Roll Dough (Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Sugar, Palm Oil, Margarine (Palm Oil, Water, Soybean Oil, Salt, Whey, Mono and Diglycerides, Soy Lecithin, Natural Flavor, Beta Carotene Color, Vitamin A Palmitate), Soybean Oil, High Fructose Corn Syrup, Yeast, Cinnamon, Monoglycerides, Wheat Protein Isolate, Sodium Caseinate, Modified Corn Starch, DATEM, Glucono Delta-Lactone, Baking Soda, Salt, Sodium Acid Pyrophosphate, Molasses, Natural Flavor, Ascorbic Acid); Powdered Sugar (Sugar, Corn Starch); Tap Water",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "130",
+            "caloriesFromFat": "40",
+            "fat": "5g",
+            "saturatedFat": "2.5g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "0mg",
+            "sodium": "190mg",
+            "carbohydrates": "20g",
+            "dietaryFiber": "0g",
+            "sugar": "8g",
+            "protein": "3g",
+            "potassium": "0mg",
+            "iron": "1mg",
+            "calcium": "7mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "44g",
+            "portion": "1 EA",
+            "isPlantBased": false
+          },
+          {
+            "course": "BREAKFAST PASTRY",
+            "courseSortOrder": 0,
+            "meal": "BREAKFAST",
+            "menuItemId": 7012374618,
+            "formalName": "Banana Chocolate Chip Muffin",
+            "description": "Freshly baked muffin with mashed bananas & chocolate chips",
+            "price": 0.0,
+            "ingredients": "Variety Muffin Mix (Enriched Flour Bleached (Wheat Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Sugar, Palm Oil, Modified Corn Starch, Modified Whey. Contains 2% of Less of: Leavening (Sodium Acid Pyrophosphate, Baking Soda, Monocalcium Phosphate), Dextrose, Mono and Diglycerides, Salt, Eggs with Sodium Silicoaluminate, Xanthan Gum, Nonfat Milk, Natural Flavor, Soy Flour); Banana; Tap Water; Semi Sweet Chocolate Chips (Semi Sweet Chocolate [Sugar, Chocolate, Cocoa Butter, Milk Fat, Lecithin (Soy), Natural Flavor, Milk])",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 2,
+                "name": "Egg"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "130",
+            "caloriesFromFat": "35",
+            "fat": "4g",
+            "saturatedFat": "2g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "0mg",
+            "sodium": "160mg",
+            "carbohydrates": "22g",
+            "dietaryFiber": "0g",
+            "sugar": "13g",
+            "protein": "1g",
+            "potassium": "70mg",
+            "iron": "1mg",
+            "calcium": "8mg",
+            "vitaminA": "6IU",
+            "vitaminC": "1mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "42g",
+            "portion": "1 #24 Scoop",
+            "isPlantBased": false
+          }
+        ]
+      },
+      {
+        "name": "HOT BREAKFAST",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "HOT BREAKFAST",
+            "courseSortOrder": 0,
+            "meal": "BREAKFAST",
+            "menuItemId": 7012374593,
+            "formalName": "Hash Brown Patty",
+            "description": "Crispy shredded potato patty seasoned with salt & pepper",
+            "price": 0.0,
+            "ingredients": "Hash Brown Patty (Potatoes, Vegetable Oil (Contains One or More of The Following Oils: Canola, Soybean, Cottonseed, Sunflower, Corn). Contains 2% or less of Dehydrated Onion, Dextrose, Natural Flavor, Salt, Sodium Acid Pyrophosphate Added to Maintain Natural Color); Shortening Fry (Liquid and Hydrogenated Soybean Oil, TBHQ and Citric Acid added to protect flavor, Dimethylpolysiloxane (an anti-foaming agent)); Kosher Salt; Black Pepper",
+            "allergens": [
+              {
+                "allergen": 7,
+                "name": "Soy"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "150",
+            "caloriesFromFat": "110",
+            "fat": "12g",
+            "saturatedFat": "2g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "6g",
+            "cholesterol": "0mg",
+            "sodium": "320mg",
+            "carbohydrates": "12g",
+            "dietaryFiber": "0g",
+            "sugar": "0g",
+            "protein": "0g",
+            "potassium": "180mg",
+            "iron": "0mg",
+            "calcium": "7mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "66g",
+            "portion": "1 EA",
+            "isPlantBased": true
+          },
+          {
+            "course": "HOT BREAKFAST",
+            "courseSortOrder": 0,
+            "meal": "BREAKFAST",
+            "menuItemId": 7012374623,
+            "formalName": "Scrambled Eggs",
+            "description": "",
+            "price": 0.0,
+            "ingredients": "Pasteurized Eggs (Whole Eggs, Citric Acid, Water); Canola Oil",
+            "allergens": [
+              {
+                "allergen": 2,
+                "name": "Egg"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "190",
+            "caloriesFromFat": "120",
+            "fat": "13g",
+            "saturatedFat": "4g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "1g",
+            "cholesterol": "445mg",
+            "sodium": "170mg",
+            "carbohydrates": "0g",
+            "dietaryFiber": "0g",
+            "sugar": "0g",
+            "protein": "15g",
+            "potassium": "170mg",
+            "iron": "2mg",
+            "calcium": "67mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "2mg",
+            "addedSugar": null,
+            "portionSize": "122g",
+            "portion": "1 1/2 CUP",
+            "isPlantBased": false
+          },
+          {
+            "course": "HOT BREAKFAST",
+            "courseSortOrder": 0,
+            "meal": "BREAKFAST",
+            "menuItemId": 7012374628,
+            "formalName": "Hard-boiled Egg",
+            "description": "",
+            "price": 0.0,
+            "ingredients": "Hardboiled Eggs",
+            "allergens": [
+              {
+                "allergen": 2,
+                "name": "Egg"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "70",
+            "caloriesFromFat": "45",
+            "fat": "5g",
+            "saturatedFat": "1.5g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "1g",
+            "cholesterol": "170mg",
+            "sodium": "55mg",
+            "carbohydrates": "0g",
+            "dietaryFiber": "0g",
+            "sugar": "1g",
+            "protein": "6g",
+            "potassium": "55mg",
+            "iron": "1mg",
+            "calcium": "22mg",
+            "vitaminA": "223IU",
+            "vitaminC": "0mg",
+            "vitaminD": "1mg",
+            "addedSugar": null,
+            "portionSize": "51g",
+            "portion": "1 EA",
+            "isPlantBased": false
+          },
+          {
+            "course": "HOT BREAKFAST",
+            "courseSortOrder": 0,
+            "meal": "BREAKFAST",
+            "menuItemId": 7012374602,
+            "formalName": "Quiche Lorraine",
+            "description": "Swiss cheese, bacon and sauteed onion baked with egg custard in a flaky pastry crust",
+            "price": 0.0,
+            "ingredients": "Swiss Cheese (Pasteurized Part Skim Milk, Cheese Culture, Salt, Enzymes); Pie Shell (Enriched Flour (Wheat Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Interesterified Soybean Oil, Water, Hydrogenated Cottonseed Oil, High Fructose Corn Syrup, Salt, Soy Flour); Yellow Onion; Mayonnaise (Soybean Oil, Water, Egg Yolks, Distilled Vinegar, High Fructose Corn Syrup, contains less than 2% of Salt, Spice, Calcium Disodium EDTA added to protect flavor); Whole Milk; Pasteurized Eggs (Whole Eggs, Citric Acid, Water); Bacon (Cured with: Water Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite); Margarine (Palm Oil, Water, Soybean Oil, contains less than 2% of Soy Lecithin, Vegetable Mono &amp; Diglycerides, Potassium Sorbate (preservative), Citric Acid, Natural &amp; Artificial Flavor, Beta Carotene (color), Vitamin A Palmitate added); Grated Parmesan Cheese (Parmesan Cheese (Cultured Pasteurized Milk, Salt, Enzymes), Anti-Caking Blend (Modified Corn Starch, Powdered Cellulose, Natamycin [mold inhibitor])); Corn Starch; Nutmeg Ground; White Pepper Ground",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 2,
+                "name": "Egg"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "370",
+            "caloriesFromFat": "260",
+            "fat": "29g",
+            "saturatedFat": "12g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "1g",
+            "cholesterol": "80mg",
+            "sodium": "310mg",
+            "carbohydrates": "14g",
+            "dietaryFiber": "0g",
+            "sugar": "3g",
+            "protein": "12g",
+            "potassium": "130mg",
+            "iron": "1mg",
+            "calcium": "273mg",
+            "vitaminA": "365IU",
+            "vitaminC": "1mg",
+            "vitaminD": "10mg",
+            "addedSugar": null,
+            "portionSize": "113g",
+            "portion": "1 SLC",
+            "isPlantBased": false
+          },
+          {
+            "course": "HOT BREAKFAST",
+            "courseSortOrder": 0,
+            "meal": "BREAKFAST",
+            "menuItemId": 7012374652,
+            "formalName": "French Toast Sticks",
+            "description": "",
+            "price": 0.0,
+            "ingredients": "Texas Toast (Enriched Wheat Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup, Yeast, Contains 2% Or Less Of The Following: Wheat Gluten, Salt, Soybean Oil, Dough Conditioners (Sodium Stearoyl Lactylate, Monoglycerides, Ascorbic Acid, Calcium Peroxide, Enzymes), Calcium Propionate and Potassium Sorbate (Preservatives), Yeast Nutrients (Monocalcium Phosphate, Calcium Sulfate, Ammonium Sulfate)); Pasteurized Eggs (Whole Eggs, Citric Acid, Water); 2% Milk; Granulated Sugar (100% Pure Cane Sugar); Shortening Fry (Liquid and Hydrogenated Soybean Oil, TBHQ and Citric Acid added to protect flavor, Dimethylpolysiloxane (an anti-foaming agent)); Imitation Vanilla Extract (Water, Vanillin, Caramel Color, Ethyl Vanillin, 0.1% Potassium Sorbate (added as a preservative)); Cinnamon Ground",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 2,
+                "name": "Egg"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": true,
+            "isSwell": false,
+            "calories": "130",
+            "caloriesFromFat": "30",
+            "fat": "3g",
+            "saturatedFat": "1g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "1g",
+            "cholesterol": "50mg",
+            "sodium": "240mg",
+            "carbohydrates": "20g",
+            "dietaryFiber": "0g",
+            "sugar": "3g",
+            "protein": "5g",
+            "potassium": "60mg",
+            "iron": "1mg",
+            "calcium": "43mg",
+            "vitaminA": "6IU",
+            "vitaminC": "3mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "59g",
+            "portion": "1 4 EA",
+            "isPlantBased": false
+          },
+          {
+            "course": "HOT BREAKFAST",
+            "courseSortOrder": 0,
+            "meal": "BREAKFAST",
+            "menuItemId": 7012374603,
+            "formalName": "Scrambled Tofu",
+            "description": "Tofu scrambled with scallions, garlic, jalapeno peppers and seasoned with paprika, oregano and lime juice",
+            "price": 0.0,
+            "ingredients": "Tofu (Water, Soybeans, Calcium Sulfate, Magnesium Chloride); Green Onion; Garlic; Canola Oil; Pasteurized Lime Juice; Jalapeno Peppers; Paprika (Paprika, Silicon Dioxide (Free Flowing)); Fresh Cilantro; Kosher Salt; Black Pepper; Oregano Leaf Dried",
+            "allergens": [
+              {
+                "allergen": 7,
+                "name": "Soy"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": true,
+            "isSwell": false,
+            "calories": "100",
+            "caloriesFromFat": "50",
+            "fat": "5g",
+            "saturatedFat": "0.5g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "1g",
+            "cholesterol": "0mg",
+            "sodium": "160mg",
+            "carbohydrates": "4g",
+            "dietaryFiber": "2g",
+            "sugar": "1g",
+            "protein": "8g",
+            "potassium": "150mg",
+            "iron": "1mg",
+            "calcium": "116mg",
+            "vitaminA": "384IU",
+            "vitaminC": "4mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "85g",
+            "portion": "1 3 OZ",
+            "isPlantBased": true
+          },
+          {
+            "course": "HOT BREAKFAST",
+            "courseSortOrder": 0,
+            "meal": "BREAKFAST",
+            "menuItemId": 7012374604,
+            "formalName": "Oatmeal",
+            "description": "A hearty bowl of oatmeal",
+            "price": 0.0,
+            "ingredients": "Tap Water; Oatmeal (100% Natural Whole Grain Quaker Quality Rolled Oats)",
+            "allergens": [],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "110",
+            "caloriesFromFat": "20",
+            "fat": "2g",
+            "saturatedFat": "0g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "1g",
+            "cholesterol": "0mg",
+            "sodium": "5mg",
+            "carbohydrates": "21g",
+            "dietaryFiber": "3g",
+            "sugar": "0g",
+            "protein": "4g",
+            "potassium": "110mg",
+            "iron": "1mg",
+            "calcium": "19mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "176g",
+            "portion": "1 6 OZ",
+            "isPlantBased": true
+          },
+          {
+            "course": "HOT BREAKFAST",
+            "courseSortOrder": 0,
+            "meal": "BREAKFAST",
+            "menuItemId": 7012374622,
+            "formalName": "Pork Breakfast Sausage",
+            "description": "",
+            "price": 0.0,
+            "ingredients": "Lean Ground Pork; Kosher Salt; Ground Fennel Seed; Crushed Red Pepper; Sage; Thyme",
+            "allergens": [],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "260",
+            "caloriesFromFat": "160",
+            "fat": "18g",
+            "saturatedFat": "7g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "2g",
+            "cholesterol": "80mg",
+            "sodium": "520mg",
+            "carbohydrates": "0g",
+            "dietaryFiber": "0g",
+            "sugar": "0g",
+            "protein": "22g",
+            "potassium": "320mg",
+            "iron": "2mg",
+            "calcium": "29mg",
+            "vitaminA": "144IU",
+            "vitaminC": "1mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "89g",
+            "portion": "1 2 EA",
+            "isPlantBased": false
+          }
+        ]
+      },
+      {
+        "name": "MISCELLANEOUS",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "MISCELLANEOUS",
+            "courseSortOrder": 0,
+            "meal": "BREAKFAST",
+            "menuItemId": 7012374646,
+            "formalName": "Have A Nice Day",
+            "description": "",
+            "price": 0.0,
+            "ingredients": "Peripherals Fall Menu",
+            "allergens": [],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "",
+            "caloriesFromFat": "",
+            "fat": "",
+            "saturatedFat": "",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "",
+            "sodium": "0mg",
+            "carbohydrates": "",
+            "dietaryFiber": "",
+            "sugar": "",
+            "protein": "",
+            "potassium": "",
+            "iron": "0mg",
+            "calcium": "0mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "454g",
+            "portion": "1 EA",
+            "isPlantBased": false
+          }
+        ]
+      },
+      {
+        "name": "OMELETE BAR",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "OMELETE BAR",
+            "courseSortOrder": 0,
+            "meal": "BREAKFAST",
+            "menuItemId": 7012374594,
+            "formalName": "Bacon, Egg & Cheddar Cheese Muffin",
+            "description": "Eggless egg patty, plant-based bacon and cheddar cheese on a toasted English muffin",
+            "price": 0.0,
+            "ingredients": "English Muffin (Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Reduced Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Yeast, Degerminated Yellow Corn Meal, Degerminated Yellow Corn Flour, Contains Less Than 2% Of Each Of The Following: Cultured Wheat Flour, Sugar, Salt, Vinegar, Soybean Oil, Wheat Flour, Ascorbic Acid (Dough Conditioner), Enzymes); Vegan Eggless Patty (Water, Mung Bean Protein Concentrate, Expeller-Pressed Canola Oil, Baking Soda, Dehydrated Garlic, Dehydrated Onion, Disodium Phosphate Dihydrate, Enzyme, Konjac, Natural Carrot Extractives, Natural Flavors, Natural Turmeric Extractives, Onion Puree, Salt); Vegan Cheddar Cheese (Filtered Water, Coconut Oil, Food Starch-Modified (Potato &amp; Corn), Potato Starch, Salt (Sea Salt), Cheddar Flavor (Vegan Sources), Olive Extract, Paprika extract &amp; Beta Carotene (color), Vitamin B12); Vegetable Bacon (Water, Soybean Oil, Modified Corn Starch, Egg Whites, Soy Flour, Wheat Gluten, Hydrolyzed Vegetable Protein (Corn, Soy and Wheat). Contains 2% or less of: Vegetable Glycerin, Salt, Soy Protein Isolate, Sodium Citrate, Sugar, Yeast, Natural and Artificial Flavors, Monocalcium Phosphate, Sodium Tripolyphosphate, Caramel Color, Malic Acid, Guar Gum, Yeast Extract, Spice, Lactic Acid, Disodium Inosinate, Disodium Guanylate, Calcium Lactate, Red 40, Locust Bean Gum, Sodium Sulfite (for freshness), Carrageenan, Nonfat Milk, Blue 1)",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 2,
+                "name": "Egg"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "280",
+            "caloriesFromFat": "120",
+            "fat": "13g",
+            "saturatedFat": "5g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "3g",
+            "cholesterol": "0mg",
+            "sodium": "690mg",
+            "carbohydrates": "33g",
+            "dietaryFiber": "1g",
+            "sugar": "1g",
+            "protein": "10g",
+            "potassium": "75mg",
+            "iron": "2mg",
+            "calcium": "86mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "1mg",
+            "addedSugar": null,
+            "portionSize": "112g",
+            "portion": "1 SANDWICH",
+            "isPlantBased": false
+          },
+          {
+            "course": "OMELETE BAR",
+            "courseSortOrder": 0,
+            "meal": "BREAKFAST",
+            "menuItemId": 7012374653,
+            "formalName": "Everything Vegan Omelet",
+            "description": "Just Egg omelet with green onions, green pepper, mushrooms, spinach, tomatoes, vegan cheddar and mozzarella cheeses",
+            "price": 0.0,
+            "ingredients": "Liquid Vegan Eggless Eggs (Water, Mung Bean Protein Concentrate, Expeller Pressed Canola Oil, Calcium Citrate, Enzyme, Gellan Gum, Natural Carrot Extractives, Natural Flavors, Natural Turmeric Extractives, Onion, Potassium Citrate, Salt, Soy Lecithin, Sugar, Tetrasodium Diphosphate, Nisin, Potassium Sorbate); Green Bell Pepper; Green Onion; Tomato; Button Mushroom; Shredded Vegan Mozzarella Cheese (Filtered Water, Coconut Oil, Food Starch-Modified (Potato &amp; Corn), Corn Starch, Salt (Sea Salt), Mozzarella Flavor (Vegan Sources), Olive Extract, Beta Carotene (color), Vitamin B12); Margarine (Palm Oil, Water, Soybean Oil, contains less than 2% of Soy Lecithin, Vegetable Mono &amp; Diglycerides, Potassium Sorbate (preservative), Citric Acid, Natural &amp; Artificial Flavor, Beta Carotene (color), Vitamin A Palmitate added); Fresh Spinach; Vegan Shredded Cheddar Cheese (Filtered Water, Coconut Oil, Food Starch-Modified (Potato &amp; Corn), Corn Starch, Salt (Sea Salt), Cheddar Flavor (Vegan Sources), Olive Extract, Paprika extract &amp; Beta Carotene (color), Vitamin B12)",
+            "allergens": [
+              {
+                "allergen": 7,
+                "name": "Soy"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "290",
+            "caloriesFromFat": "200",
+            "fat": "22g",
+            "saturatedFat": "6g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "4g",
+            "cholesterol": "0mg",
+            "sodium": "520mg",
+            "carbohydrates": "8g",
+            "dietaryFiber": "0g",
+            "sugar": "2g",
+            "protein": "15g",
+            "potassium": "220mg",
+            "iron": "1mg",
+            "calcium": "27mg",
+            "vitaminA": "962IU",
+            "vitaminC": "16mg",
+            "vitaminD": "1mg",
+            "addedSugar": null,
+            "portionSize": "193g",
+            "portion": "1 OMELET",
+            "isPlantBased": true
+          }
+        ]
+      },
+      {
+        "name": "WAFFLE BAR",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "WAFFLE BAR",
+            "courseSortOrder": 0,
+            "meal": "BREAKFAST",
+            "menuItemId": 7012374617,
+            "formalName": "Vanilla Belgian Waffle",
+            "description": "",
+            "price": 0.0,
+            "ingredients": "Vanilla Belgian Waffle Mix (Enriched Wheat Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Sugar, Soybean Oil, Sodium Bicarbonate, Sodium Acid Pyrophosphate, Contains 2% Or Less Of The Following: Natural and Artificial Flavors (Dextrose, Maltodextrin, Starch, Silicon Dioxide), Salt, Yellow Corn Flour, Buttermilk Solids, Malted Barley Extract); Tap Water",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "260",
+            "caloriesFromFat": "25",
+            "fat": "3g",
+            "saturatedFat": "0.5g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "2g",
+            "cholesterol": "0mg",
+            "sodium": "1150mg",
+            "carbohydrates": "53g",
+            "dietaryFiber": "0g",
+            "sugar": "7g",
+            "protein": "5g",
+            "potassium": "95mg",
+            "iron": "3mg",
+            "calcium": "20mg",
+            "vitaminA": "9IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "113g",
+            "portion": "1 EA",
+            "isPlantBased": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "LUNCH",
+    "groups": [
+      {
+        "name": "DESSERTS",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "DESSERTS",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374606,
+            "formalName": "Two Chocolate Chip Cookies",
+            "description": "Just baked chewy cookies with chocolate chips galore",
+            "price": 0.0,
+            "ingredients": "Chocolate Chip Cookie Dough (Enriched Bleached Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Sugar, Palm Oil, Semi-Sweet Chocolate Chips (Sugar, Unsweetened Chocolate, Cocoa Butter, Dextrose, Soy Lecithin, Vanilla Extract), Chocolate Flavored Confectionary Chips (Sugar, Palm Kernel and/or Palm Oil, Cocoa [Processed with Alkali], Dextrose, Soy Lecithin, Polysorbate 60, Sorbitan Monostearate, Natural Flavor, Salt, Vanilla Extract), Margarine (Palm Oil, Water, Soybean Oil, Salt, Mono and Diglycerides, Natural Flavors [Contains Milk], Citric Acid, Vitamin A Palmitate Added, Beta Carotene [Color]), Water, Eggs, Dextrose, Contains 2% Or Less Of: Molasses, Wheat Starch, Baking Soda, Salt, Natural and Artificial Flavor)",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 2,
+                "name": "Egg"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "230",
+            "caloriesFromFat": "90",
+            "fat": "11g",
+            "saturatedFat": "5g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "1g",
+            "cholesterol": "5mg",
+            "sodium": "190mg",
+            "carbohydrates": "31g",
+            "dietaryFiber": "0g",
+            "sugar": "18g",
+            "protein": "2g",
+            "potassium": "50mg",
+            "iron": "2mg",
+            "calcium": "7mg",
+            "vitaminA": "117IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "51g",
+            "portion": "1 2 Cookies",
+            "isPlantBased": false
+          }
+        ]
+      },
+      {
+        "name": "ENTREE",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "ENTREE",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374654,
+            "formalName": "Simply Roasted Carrots",
+            "description": "Oven roasted carrots seasoned simply with EVOO, kosher salt and black pepper",
+            "price": 0.0,
+            "ingredients": "Carrots; Pure Olive Oil; Kosher Salt; Black Pepper",
+            "allergens": [],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": true,
+            "isSwell": false,
+            "calories": "45",
+            "caloriesFromFat": "15",
+            "fat": "2g",
+            "saturatedFat": "0g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "0mg",
+            "sodium": "100mg",
+            "carbohydrates": "7g",
+            "dietaryFiber": "3g",
+            "sugar": "3g",
+            "protein": "0g",
+            "potassium": "200mg",
+            "iron": "0mg",
+            "calcium": "25mg",
+            "vitaminA": "14202IU",
+            "vitaminC": "3mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "85g",
+            "portion": "1 3 OZ",
+            "isPlantBased": true
+          },
+          {
+            "course": "ENTREE",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374614,
+            "formalName": "Chicken With Sherry And Mushrooms",
+            "description": "Sauteed boneless chicken breast served with a sherry mushroom sauce",
+            "price": 0.0,
+            "ingredients": "Boneless Skinless Chicken Breast (Boneless Skinless Chicken Breast Fillets With Rib Meat); Button Mushroom; Tap Water; Sherry Cooking Wine (Sherry Wine, Salt, Potassium Metabisulfite); Margarine (Palm Oil, Water, Soybean Oil, contains less than 2% of Soy Lecithin, Vegetable Mono &amp; Diglycerides, Potassium Sorbate (preservative), Citric Acid, Natural &amp; Artificial Flavor, Beta Carotene (color), Vitamin A Palmitate added); Canola Oil; Shallots; Corn Starch; Chicken Soup Base (Roasted and Cooked Chicken, Maltodextrin, Chicken Fat, Chicken Broth, Sugar, Salt, Autolyzed Yeast Extract, Palm Oil, Modified Tapioca Starch, Potassium Chloride, Natural Flavors, Modified Corn Starch, Gum Arabic, Turmeric, Lactic Acid, Citric Acid); Fresh Italian Parsley; Kosher Salt; Black Pepper",
+            "allergens": [
+              {
+                "allergen": 7,
+                "name": "Soy"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "330",
+            "caloriesFromFat": "160",
+            "fat": "17g",
+            "saturatedFat": "4g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "3g",
+            "cholesterol": "100mg",
+            "sodium": "260mg",
+            "carbohydrates": "4g",
+            "dietaryFiber": "0g",
+            "sugar": "1g",
+            "protein": "38g",
+            "potassium": "480mg",
+            "iron": "2mg",
+            "calcium": "24mg",
+            "vitaminA": "65IU",
+            "vitaminC": "2mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "201g",
+            "portion": "1 ENTREE",
+            "isPlantBased": false
+          },
+          {
+            "course": "ENTREE",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374637,
+            "formalName": "Basmati Rice",
+            "description": "Steamed basmati rice",
+            "price": 0.0,
+            "ingredients": "Tap Water; Basmati Rice (White Rice); Kosher Salt",
+            "allergens": [],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": true,
+            "isSwell": false,
+            "calories": "90",
+            "caloriesFromFat": "0",
+            "fat": "0g",
+            "saturatedFat": "0g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "0mg",
+            "sodium": "120mg",
+            "carbohydrates": "20g",
+            "dietaryFiber": "0g",
+            "sugar": "0g",
+            "protein": "2g",
+            "potassium": "30mg",
+            "iron": "0mg",
+            "calcium": "9mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "77g",
+            "portion": "1 1/2 CUP",
+            "isPlantBased": true
+          },
+          {
+            "course": "ENTREE",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374609,
+            "formalName": "Old-fashioned Cornbread",
+            "description": "Traditional cornbread",
+            "price": 0.0,
+            "ingredients": "Corn Muffin Mix (Enriched Flour Bleached (Wheat Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Sugar, Degermed Yellow Corn Meal, Soybean Oil, Modified Corn Starch, Yellow Corn Flour, Leavening (Sodium Acid Pyrophosphate, Baking Soda, Monocalcium Phosphate). Contains 2% of Less of: Salt, Eggs with Sodium Silicoaluminate, Modified Whey, Mono and Diglycerides, Nonfat Milk, Xanthan Gum, Soy Flour); Tap Water",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 2,
+                "name": "Egg"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "170",
+            "caloriesFromFat": "40",
+            "fat": "5g",
+            "saturatedFat": "1g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "2g",
+            "cholesterol": "0mg",
+            "sodium": "360mg",
+            "carbohydrates": "31g",
+            "dietaryFiber": "0g",
+            "sugar": "12g",
+            "protein": "2g",
+            "potassium": "0mg",
+            "iron": "0mg",
+            "calcium": "1mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "68g",
+            "portion": "1 SLC=6x8",
+            "isPlantBased": false
+          }
+        ]
+      },
+      {
+        "name": "GRILL",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "GRILL",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374597,
+            "formalName": "Caprese Turkey Burger",
+            "description": "Turkey burger with basil parmesan mayonnaise, bruschetta, provolone cheese and leaf lettuce",
+            "price": 0.0,
+            "ingredients": "Turkey Burger (Dark Turkey, contains 2% or less Salt, Rosemary Extract, Savory Seasoning (Spices including Black Pepper, Dehydrated Garlic, Onion Powder)); Hamburger Bun (Unbleached, Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup, Yeast, Soybean Oil, contains 2% or less of the following: Wheat Gluten, Salt, Monocalcium Phosphate, Monoglycerides, Wheat Flour, Calcium Sulfate, Ammonium Sulfate, Ascorbic Acid, Enzymes, Calcium Propionate (preservative)); Provolone Cheese (Cultured Pasteurized Milk, Salt, Enzymes); Mayonnaise (Soybean Oil, Water, Egg Yolks, Distilled Vinegar, High Fructose Corn Syrup, contains less than 2% of Salt, Spice, Calcium Disodium EDTA added to protect flavor); Plum Tomato; Green Leaf Lettuce; Yellow Mustard (Distilled Vinegar, Water, Mustard Seed, Salt, Turmeric, Paprika, Garlic Powder); Pure Olive Oil; Shredded Parmesan Cheese (Pasteurized Part Skim Milk, Cheese Culture, Salt, and Enzymes, Potato Starch and Powdered Cellulose added to prevent caking); Fresh Basil; Garlic Granulated; Balsamic Vinegar; Garlic; Black Pepper; Kosher Salt",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 2,
+                "name": "Egg"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 16,
+                "name": "Sesame"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "430",
+            "caloriesFromFat": "210",
+            "fat": "23g",
+            "saturatedFat": "7g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "80mg",
+            "sodium": "750mg",
+            "carbohydrates": "29g",
+            "dietaryFiber": "1g",
+            "sugar": "5g",
+            "protein": "25g",
+            "potassium": "340mg",
+            "iron": "3mg",
+            "calcium": "167mg",
+            "vitaminA": "873IU",
+            "vitaminC": "2mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "192g",
+            "portion": "1 SANDWICH",
+            "isPlantBased": false
+          },
+          {
+            "course": "GRILL",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374619,
+            "formalName": "Veggie Burger On Bun",
+            "description": "Gardenburger burger, lettuce and tomato on a toasted bun",
+            "price": 0.0,
+            "ingredients": "Garden Burger (Cooked Brown Rice (Long Grain Brown Rice, Water), Water, Mushrooms, Onions, Rolled Oats, Mozzarella Cheese (Pasteurized Part Skim Milk, Cheese Cultures, Salt, Annatto for color, Enzymes), Hydrated Bulgur Wheat (Water, Bulgur Wheat), Cheddar Cheese (Pasteurized Milk, Salt, Enzymes, Cultures, Annatto), Soy Protein Concentrate, contains two percent or less of Salt, Parsley, Modified Vegetable Gum, Wheat Gluten, Garlic Powder, Yeast Extract, Autolyzed Yeast Extract, Spices, Citric Acid, Malted Barley, Natural Flavors, Annatto color, Whey, Maltodextrin, Malted Barley Flour, Dehydrated Onion, Dehydrated Mushrooms, Guar Gum, Turmeric color); Hamburger Bun (Unbleached, Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup, Yeast, Soybean Oil, contains 2% or less of the following: Wheat Gluten, Salt, Monocalcium Phosphate, Monoglycerides, Wheat Flour, Calcium Sulfate, Ammonium Sulfate, Ascorbic Acid, Enzymes, Calcium Propionate (preservative)); Tomato; Green Leaf Lettuce",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 16,
+                "name": "Sesame"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "280",
+            "caloriesFromFat": "50",
+            "fat": "6g",
+            "saturatedFat": "2g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "1g",
+            "cholesterol": "5mg",
+            "sodium": "740mg",
+            "carbohydrates": "47g",
+            "dietaryFiber": "3g",
+            "sugar": "6g",
+            "protein": "12g",
+            "potassium": "290mg",
+            "iron": "3mg",
+            "calcium": "148mg",
+            "vitaminA": "985IU",
+            "vitaminC": "8mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "181g",
+            "portion": "1 SANDWICH",
+            "isPlantBased": false
+          },
+          {
+            "course": "GRILL",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374630,
+            "formalName": "French Fries",
+            "description": "",
+            "price": 0.0,
+            "ingredients": "French Fries (Potatoes, Vegetable Oil (Contains One or More of The Following Oils: Canola, Soybean, Cottonseed, Sunflower, Corn). Contains 2% or less of Dextrose, Sodium Acid Pyrophosphate Added to Maintain Color); Shortening Fry (Liquid and Hydrogenated Soybean Oil, TBHQ and Citric Acid added to protect flavor, Dimethylpolysiloxane (an anti-foaming agent))",
+            "allergens": [
+              {
+                "allergen": 7,
+                "name": "Soy"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "200",
+            "caloriesFromFat": "120",
+            "fat": "13g",
+            "saturatedFat": "2.5g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "7g",
+            "cholesterol": "0mg",
+            "sodium": "25mg",
+            "carbohydrates": "22g",
+            "dietaryFiber": "2g",
+            "sugar": "1g",
+            "protein": "2g",
+            "potassium": "330mg",
+            "iron": "0mg",
+            "calcium": "12mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "113g",
+            "portion": "1 4 OZ",
+            "isPlantBased": true
+          },
+          {
+            "course": "GRILL",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374608,
+            "formalName": "Cheese Quesadilla",
+            "description": "Griddled flour tortilla with cheddar cheese",
+            "price": 0.0,
+            "ingredients": "Flour Tortilla (Enriched Unbleached Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin And Folic Acid), Water, Vegetable Shortening (contains one or more of the following: Palm Oil and/or Corn Oil), contains 2% or less of the following: Salt, Aluminum Free Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Cornstarch, Monocalcium Phosphate), Wheat Protein, Preservatives (Calcium Propionate, Sorbic Acid), Dough Conditioner (Fumaric Acid, Xanthan Gum, Mono and Diglycerides, Sodium Metabisulphite)); Shredded Mild Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto (vegetable color), Potato Starch, Powdered Cellulose added to prevent caking)",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "330",
+            "caloriesFromFat": "140",
+            "fat": "15g",
+            "saturatedFat": "8g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "30mg",
+            "sodium": "600mg",
+            "carbohydrates": "36g",
+            "dietaryFiber": "1g",
+            "sugar": "1g",
+            "protein": "12g",
+            "potassium": "75mg",
+            "iron": "2mg",
+            "calcium": "288mg",
+            "vitaminA": "352IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "99g",
+            "portion": "1 QUESADILLA",
+            "isPlantBased": false
+          },
+          {
+            "course": "GRILL",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374641,
+            "formalName": "Grilled Cheese",
+            "description": "Slow grilled sandwich on white bread with American cheese",
+            "price": 0.0,
+            "ingredients": "White Bread (Unbleached Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Sugar, Yeast, Soybean Oil, contains 2% or less of the following: Wheat Gluten, Salt, Wheat Starch, Calcium Propionate (preservative), Monocalcium Phosphate, Calcium Sulfate, Ammonium Sulfate, Potassium Sorbate (preservative), Ascorbic Acid, Enzymes); Yellow American Cheese (American Cheese (Milk, Cheese Culture, Salt, Enzymes), Water, Cream, Sodium Citrate, Salt, Sorbic Acid as a Preservative, color added (if colored (Annatto OS 460 and Oleoresin Paprika Non GMO)), Sunflower Lecithin for separation); Margarine (Palm Oil, Water, Soybean Oil, contains less than 2% of Soy Lecithin, Vegetable Mono &amp; Diglycerides, Potassium Sorbate (preservative), Citric Acid, Natural &amp; Artificial Flavor, Beta Carotene (color), Vitamin A Palmitate added)",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "520",
+            "caloriesFromFat": "180",
+            "fat": "20g",
+            "saturatedFat": "10g",
+            "transFat": "1g",
+            "polyunsaturatedFat": "1g",
+            "cholesterol": "40mg",
+            "sodium": "1330mg",
+            "carbohydrates": "66g",
+            "dietaryFiber": "2g",
+            "sugar": "7g",
+            "protein": "19g",
+            "potassium": "160mg",
+            "iron": "4mg",
+            "calcium": "403mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "167g",
+            "portion": "1 SANDWICH",
+            "isPlantBased": false
+          }
+        ]
+      },
+      {
+        "name": "INTERNATIONAL",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "INTERNATIONAL",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374632,
+            "formalName": "Fresh Broccoli Florets",
+            "description": null,
+            "price": 0.0,
+            "ingredients": "Broccoli; Tap Water",
+            "allergens": [],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": true,
+            "isSwell": false,
+            "calories": "10",
+            "caloriesFromFat": "0",
+            "fat": "0g",
+            "saturatedFat": "0g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "0mg",
+            "sodium": "10mg",
+            "carbohydrates": "2g",
+            "dietaryFiber": "0g",
+            "sugar": "0g",
+            "protein": "0g",
+            "potassium": "85mg",
+            "iron": "0mg",
+            "calcium": "11mg",
+            "vitaminA": "437IU",
+            "vitaminC": "18mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "28g",
+            "portion": "1 OZ",
+            "isPlantBased": true
+          },
+          {
+            "course": "INTERNATIONAL",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374595,
+            "formalName": "General Tso's Chicken Stir Fry With Jasmine Rice",
+            "description": "Tempura chicken breast, jasmine rice, Asian vegetable blend, red pepper, general tso sauce",
+            "price": 0.0,
+            "ingredients": "Tap Water; General Tso's Sauce (Sugar, Water, Soy Sauce (Water, Soybeans, Wheat, Salt), Red Wine Vinegar, Modified Cornstarch, 2% or less of Ginger Puree (Ginger, Water, Citric Acid), Garlic, Salt, Molasses, Spices, Xanthan Gum, Paprika Extract); Jasmine Rice (Medium Grain Rice with Iron (Ferric Phosphate), Niacin, Thiamine Mononitrate, Folic Acid); Boneless Skinless Chicken Breast; Yellow Onion; Bok Choy; Broccoli; Carrots; Button Mushroom; Shortening Fry (Liquid and Hydrogenated Soybean Oil, TBHQ and Citric Acid added to protect flavor, Dimethylpolysiloxane (an anti-foaming agent)); Tempura Batter (Bleached Wheat Flour, Sugar, Sodium Bicarbonate, Sodium Aluminum Phosphate, Sodium Acid Pyrophosphate, Salt, Nonfat Dried Milk, Yellow Corn Flour, Dried Whole Eggs, Guar Gum, Oleoresin Turmeric); Canola Oil; Green Onion; Garlic; Crushed Red Pepper; Ginger Root",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 2,
+                "name": "Egg"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "470",
+            "caloriesFromFat": "90",
+            "fat": "10g",
+            "saturatedFat": "1.5g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "4g",
+            "cholesterol": "40mg",
+            "sodium": "970mg",
+            "carbohydrates": "75g",
+            "dietaryFiber": "2g",
+            "sugar": "30g",
+            "protein": "20g",
+            "potassium": "420mg",
+            "iron": "2mg",
+            "calcium": "52mg",
+            "vitaminA": "3014IU",
+            "vitaminC": "16mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "312g",
+            "portion": "1 ENTREE",
+            "isPlantBased": false
+          }
+        ]
+      },
+      {
+        "name": "MISCELLANEOUS",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "MISCELLANEOUS",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374644,
+            "formalName": "Have A Nice Day",
+            "description": "",
+            "price": 0.0,
+            "ingredients": "Peripherals Fall Menu",
+            "allergens": [],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "",
+            "caloriesFromFat": "",
+            "fat": "",
+            "saturatedFat": "",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "",
+            "sodium": "0mg",
+            "carbohydrates": "",
+            "dietaryFiber": "",
+            "sugar": "",
+            "protein": "",
+            "potassium": "",
+            "iron": "0mg",
+            "calcium": "0mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "454g",
+            "portion": "1 EA",
+            "isPlantBased": false
+          }
+        ]
+      },
+      {
+        "name": "PIZZA/PASTA",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "PIZZA/PASTA",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374634,
+            "formalName": "Cheese Pizza",
+            "description": "Pizza crust topped with tomato sauce and shredded mozzarella cheese",
+            "price": 0.0,
+            "ingredients": "Pizza Dough (Enriched Unbleached Wheat Flour (Wheat Flour, Niacin, Iron as Ferrous Sulfate, Thiamine Mononitrate, Enzyme, Riboflavin, Folic Acid), Water, Yeast, contains less than 2% of the following:  Palm Oil, Salt, Buttermilk, Sugar, Soybean Oil, Leavening (Baking Soda, Sodium Aluminum Phosphate), Cheddar Cheese (Milk, Cheese Cultures, Salt, Enzymes), Pasteurized Part Skim Milk, Whey Powder (Milk Derivative), Garlic Powder, Cheese Culture, Guar Gum, Malted Barley Flour, Dextrose, Xanthan Gum, DATEM, Enzyme, Sodium Phosphate, Lactic Acid, Ascorbic Acid); Pizza Sauce (Vine Ripened Fresh Tomatoes, Sugar, Salt, Spices, Salt, Garlic Powder, Extra Virgin Olive Oil); Shredded Part Skim Mozzarella Cheese (Pasteurized Part Skim Milk, Cheese Culture, Salt, and Enzymes, Potato Starch and Powdered Cellulose added to prevent caking); Canola Oil; Italian Seasoning (Marjoram, Thyme, Rosemary, Savory, Sage, Oregano, and Basil); Garlic Powder",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "250",
+            "caloriesFromFat": "70",
+            "fat": "8g",
+            "saturatedFat": "4g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "1g",
+            "cholesterol": "15mg",
+            "sodium": "730mg",
+            "carbohydrates": "34g",
+            "dietaryFiber": "2g",
+            "sugar": "3g",
+            "protein": "11g",
+            "potassium": "170mg",
+            "iron": "2mg",
+            "calcium": "169mg",
+            "vitaminA": "174IU",
+            "vitaminC": "0mg",
+            "vitaminD": "1mg",
+            "addedSugar": null,
+            "portionSize": "116g",
+            "portion": "1 SLC",
+            "isPlantBased": false
+          },
+          {
+            "course": "PIZZA/PASTA",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374657,
+            "formalName": "Parmesan Sage Cream Sauce",
+            "description": "Parmesan cheese, milk and fresh sage",
+            "price": 0.0,
+            "ingredients": "2% Milk; Shredded Parmesan Cheese (Pasteurized Part Skim Milk, Cheese Culture, Salt, and Enzymes, Potato Starch and Powdered Cellulose added to prevent caking); Unsalted Butter (Cream, Natural Flavoring); All Purpose Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid); Fresh Sage; Kosher Salt; Black Pepper",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "150",
+            "caloriesFromFat": "80",
+            "fat": "9g",
+            "saturatedFat": "6g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "25mg",
+            "sodium": "240mg",
+            "carbohydrates": "10g",
+            "dietaryFiber": "0g",
+            "sugar": "6g",
+            "protein": "7g",
+            "potassium": "170mg",
+            "iron": "0mg",
+            "calcium": "210mg",
+            "vitaminA": "295IU",
+            "vitaminC": "0mg",
+            "vitaminD": "1mg",
+            "addedSugar": null,
+            "portionSize": "117g",
+            "portion": "1 4 FLOZ",
+            "isPlantBased": false
+          },
+          {
+            "course": "PIZZA/PASTA",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374643,
+            "formalName": "Egg Noodles",
+            "description": "",
+            "price": 0.0,
+            "ingredients": "Egg Noodles (Semolina (Wheat), Durum Flour (Wheat), Egg Yolk, Niacin, Ferrous Sulfate (Iron), Thiamin Mononitrate, Riboflavin, Folic Acid\n); Tap Water; Canola Oil; Kosher Salt",
+            "allergens": [
+              {
+                "allergen": 2,
+                "name": "Egg"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": true,
+            "isSwell": false,
+            "calories": "220",
+            "caloriesFromFat": "40",
+            "fat": "4g",
+            "saturatedFat": "1g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "2g",
+            "cholesterol": "60mg",
+            "sodium": "35mg",
+            "carbohydrates": "39g",
+            "dietaryFiber": "2g",
+            "sugar": "2g",
+            "protein": "8g",
+            "potassium": "160mg",
+            "iron": "2mg",
+            "calcium": "19mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "113g",
+            "portion": "1 4 OZ",
+            "isPlantBased": false
+          },
+          {
+            "course": "PIZZA/PASTA",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374599,
+            "formalName": "Baked Garlic Breadstick",
+            "description": "",
+            "price": 0.0,
+            "ingredients": "Breadstick (Enriched Unbleached Wheat Flour (Wheat Flour, Niacin, Iron as Ferrous Sulfate, Thiamine Mononitrate, Enzyme, Riboflavin, Folic Acid), Water, Yeast, Sugar, Soybean Oil, contains less than 2% of the following:  Wheat Gluten, Eggs, Salt, Enzymes, Ascorbic Acid); Margarine (Palm Oil, Water, Soybean Oil, contains less than 2% of Soy Lecithin, Vegetable Mono &amp; Diglycerides, Potassium Sorbate (preservative), Citric Acid, Natural &amp; Artificial Flavor, Beta Carotene (color), Vitamin A Palmitate added); Garlic Powder",
+            "allergens": [
+              {
+                "allergen": 2,
+                "name": "Egg"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "90",
+            "caloriesFromFat": "25",
+            "fat": "3g",
+            "saturatedFat": "1g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "0mg",
+            "sodium": "125mg",
+            "carbohydrates": "13g",
+            "dietaryFiber": "0g",
+            "sugar": "1g",
+            "protein": "2g",
+            "potassium": "30mg",
+            "iron": "1mg",
+            "calcium": "5mg",
+            "vitaminA": "1IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "31g",
+            "portion": "1 EA",
+            "isPlantBased": false
+          },
+          {
+            "course": "PIZZA/PASTA",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374639,
+            "formalName": "Marinara Sauce",
+            "description": "",
+            "price": 0.0,
+            "ingredients": "Marinara (Fresh Vine Ripened Unpeeled Tomatoes, Tomato Puree, Dehydrated Onion, Extra Virgin Olive Oil, Salt, Spice Blend (Garlic, Spices), Citric Acid)",
+            "allergens": [],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "50",
+            "caloriesFromFat": "10",
+            "fat": "1g",
+            "saturatedFat": "0g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "0mg",
+            "sodium": "240mg",
+            "carbohydrates": "8g",
+            "dietaryFiber": "2g",
+            "sugar": "5g",
+            "protein": "2g",
+            "potassium": "440mg",
+            "iron": "1mg",
+            "calcium": "20mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "116g",
+            "portion": "1 1/2 CUP",
+            "isPlantBased": true
+          },
+          {
+            "course": "PIZZA/PASTA",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374611,
+            "formalName": "Pepperoni Pizza",
+            "description": "Pizza crust topped with tomato sauce, shredded mozzarella cheese and pepperoni",
+            "price": 0.0,
+            "ingredients": "Pizza Dough (Enriched Unbleached Wheat Flour (Wheat Flour, Niacin, Iron as Ferrous Sulfate, Thiamine Mononitrate, Enzyme, Riboflavin, Folic Acid), Water, Yeast, contains less than 2% of the following:  Palm Oil, Salt, Buttermilk, Sugar, Soybean Oil, Leavening (Baking Soda, Sodium Aluminum Phosphate), Cheddar Cheese (Milk, Cheese Cultures, Salt, Enzymes), Pasteurized Part Skim Milk, Whey Powder (Milk Derivative), Garlic Powder, Cheese Culture, Guar Gum, Malted Barley Flour, Dextrose, Xanthan Gum, DATEM, Enzyme, Sodium Phosphate, Lactic Acid, Ascorbic Acid); Shredded Part Skim Mozzarella Cheese (Pasteurized Part Skim Milk, Cheese Culture, Salt, and Enzymes, Potato Starch and Powdered Cellulose added to prevent caking); Pizza Sauce (Vine Ripened Fresh Tomatoes, Sugar, Salt, Spices, Salt, Garlic Powder, Extra Virgin Olive Oil); Pepperoni (Pork, Beef, Salt, Spices, Dextrose, Oleoresin Of Paprika, Lactic Acid Starter Culture, Garlic Powder, Sodium Nitrite, BHA, BHT, Citric Acid); Canola Oil; Italian Seasoning (Marjoram, Thyme, Rosemary, Savory, Sage, Oregano, and Basil); Garlic Powder",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "280",
+            "caloriesFromFat": "90",
+            "fat": "10g",
+            "saturatedFat": "5g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "2g",
+            "cholesterol": "20mg",
+            "sodium": "820mg",
+            "carbohydrates": "34g",
+            "dietaryFiber": "2g",
+            "sugar": "3g",
+            "protein": "13g",
+            "potassium": "190mg",
+            "iron": "2mg",
+            "calcium": "179mg",
+            "vitaminA": "185IU",
+            "vitaminC": "0mg",
+            "vitaminD": "1mg",
+            "addedSugar": null,
+            "portionSize": "123g",
+            "portion": "1 SLC",
+            "isPlantBased": false
+          },
+          {
+            "course": "PIZZA/PASTA",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374605,
+            "formalName": "Pepperoni, Bacon & Mushroom Pizza",
+            "description": "Pizza topped with bacon, zesty pepperoni, fresh mushrooms, gooey mozzarella and a garlic herb seasoned crust",
+            "price": 0.0,
+            "ingredients": "Pizza Dough (Enriched Unbleached Wheat Flour (Wheat Flour, Niacin, Iron as Ferrous Sulfate, Thiamine Mononitrate, Enzyme, Riboflavin, Folic Acid), Water, Yeast, contains less than 2% of the following:  Palm Oil, Salt, Buttermilk, Sugar, Soybean Oil, Leavening (Baking Soda, Sodium Aluminum Phosphate), Cheddar Cheese (Milk, Cheese Cultures, Salt, Enzymes), Pasteurized Part Skim Milk, Whey Powder (Milk Derivative), Garlic Powder, Cheese Culture, Guar Gum, Malted Barley Flour, Dextrose, Xanthan Gum, DATEM, Enzyme, Sodium Phosphate, Lactic Acid, Ascorbic Acid); Crushed Tomatoes (Vine Ripened Fresh Tomatoes, Tomato Puree, Citric Acid); Shredded Part Skim Mozzarella Cheese (Pasteurized Part Skim Milk, Cheese Culture, Salt, and Enzymes, Potato Starch and Powdered Cellulose added to prevent caking); Button Mushroom; Bacon (Cured with: Water Salt, Sugar, Sodium Phosphate, Sodium Erythorbate, Sodium Nitrite); Pepperoni (Pork, Beef, Salt, Spices, Dextrose, Oleoresin Of Paprika, Lactic Acid Starter Culture, Garlic Powder, Sodium Nitrite, BHA, BHT, Citric Acid); Canola Oil; Garlic; Fresh Basil; Kosher Salt; Onion Powder; Fresh Oregano; Italian Seasoning (Marjoram, Thyme, Rosemary, Savory, Sage, Oregano, and Basil); Black Pepper; Crushed Red Pepper; Garlic Powder",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "300",
+            "caloriesFromFat": "100",
+            "fat": "11g",
+            "saturatedFat": "5g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "2g",
+            "cholesterol": "25mg",
+            "sodium": "850mg",
+            "carbohydrates": "36g",
+            "dietaryFiber": "2g",
+            "sugar": "4g",
+            "protein": "14g",
+            "potassium": "310mg",
+            "iron": "3mg",
+            "calcium": "170mg",
+            "vitaminA": "441IU",
+            "vitaminC": "5mg",
+            "vitaminD": "2mg",
+            "addedSugar": null,
+            "portionSize": "140g",
+            "portion": "1 SLC=1/8",
+            "isPlantBased": false
+          }
+        ]
+      },
+      {
+        "name": "SOUP",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "SOUP",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374651,
+            "formalName": "Italian Wedding Soup",
+            "description": "Italian meatballs, orzo pasta, spinach, beef broth, oregano, basil and thyme",
+            "price": 0.0,
+            "ingredients": "Tap Water; Reduced Sodium Italian Style Meatballs (Beef, Water, Bread Crumbs (Wheat Flour, Salt, Yeast), Soy Protein Concentrate, Contains Less Than 2% Of The Following:  Romano Cheese (Sheep's Milk, Salt, Enzyme), Parmesan Cheese (Milk, Salt, Enzyme), Salt, Parsley Flakes, Potassium Chloride, Spices, Granulated Onion, Granulated Garlic); Leaf Spinach; Orzo (Semolina (Wheat), Niacin, Ferrous Sulfate (Iron), Thiamin Mononitrate, Riboflavin, Folic Acid); Carrots; Celery; Yellow Onion; Chicken Soup Base (Roasted and Cooked Chicken, Maltodextrin, Chicken Fat, Chicken Broth, Sugar, Salt, Autolyzed Yeast Extract, Palm Oil, Modified Tapioca Starch, Potassium Chloride, Natural Flavors, Modified Corn Starch, Gum Arabic, Turmeric, Lactic Acid, Citric Acid); Canola Oil; Kosher Salt; Basil; Black Pepper; Oregano Leaf Dried; Thyme; Bay Leaves",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "170",
+            "caloriesFromFat": "100",
+            "fat": "11g",
+            "saturatedFat": "4g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "1g",
+            "cholesterol": "20mg",
+            "sodium": "390mg",
+            "carbohydrates": "11g",
+            "dietaryFiber": "2g",
+            "sugar": "2g",
+            "protein": "6g",
+            "potassium": "270mg",
+            "iron": "1mg",
+            "calcium": "45mg",
+            "vitaminA": "2387IU",
+            "vitaminC": "2mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "177g",
+            "portion": "1 6 FLOZ",
+            "isPlantBased": false
+          },
+          {
+            "course": "SOUP",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374625,
+            "formalName": "Tomato Soup",
+            "description": "Classic tomato soup",
+            "price": 0.0,
+            "ingredients": "Tap Water; Tomato Soup (Tomato Puree (Water, Tomato Paste), High Fructose Corn Syrup, Wheat Flour, Water, Contains Less Than 2% of: Salt, Potassium Chloride, Flavoring, Citric Acid, Lower Sodium Natural Sea Salt, Ascorbic Acid (Vitamin C), Monopotassium Phosphate, Celery Extract)",
+            "allergens": [
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": true,
+            "isSwell": false,
+            "calories": "60",
+            "caloriesFromFat": "0",
+            "fat": "0g",
+            "saturatedFat": "0g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "0mg",
+            "sodium": "320mg",
+            "carbohydrates": "13g",
+            "dietaryFiber": "0g",
+            "sugar": "8g",
+            "protein": "1g",
+            "potassium": "190mg",
+            "iron": "0mg",
+            "calcium": "16mg",
+            "vitaminA": "0IU",
+            "vitaminC": "3mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "176g",
+            "portion": "1 6 FLOZ",
+            "isPlantBased": true
+          }
+        ]
+      },
+      {
+        "name": "VEGTARIAN/VEGAN",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "VEGTARIAN/VEGAN",
+            "courseSortOrder": 0,
+            "meal": "LUNCH",
+            "menuItemId": 7012374613,
+            "formalName": "Portobello Mushroom Stroganoff",
+            "description": "Portobello mushrooms, leeks, parsnips, onions and fresh thyme in a sour cream sauce",
+            "price": 0.0,
+            "ingredients": "Tap Water; Portobello Mushroom; Sour Cream (Cultured Cream); Leeks; Yellow Onion; Parsnips; Margarine (Palm Oil, Water, Soybean Oil, contains less than 2% of Soy Lecithin, Vegetable Mono &amp; Diglycerides, Potassium Sorbate (preservative), Citric Acid, Natural &amp; Artificial Flavor, Beta Carotene (color), Vitamin A Palmitate added); Vegetable Soup Base (Maltodextrin, Onions, Sugar, Celery, Onion Powder, Salt, Yeast Extract, Carrots, Potassium Chloride, Corn Oil, Modified Tapioca Starch, Carrot Powder, Water, Carrot Juice Concentrate, Tomato Paste, Disodium Inosinate, Disodium Guanylate, Garlic Powder, Natural Flavor, Citric Acid, extractives of Paprika (for color)); Fresh Thyme; All Purpose Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid); Canola Oil; Garlic; Kosher Salt; Black Pepper",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "90",
+            "caloriesFromFat": "50",
+            "fat": "6g",
+            "saturatedFat": "2.5g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "5mg",
+            "sodium": "240mg",
+            "carbohydrates": "8g",
+            "dietaryFiber": "1g",
+            "sugar": "2g",
+            "protein": "2g",
+            "potassium": "260mg",
+            "iron": "1mg",
+            "calcium": "36mg",
+            "vitaminA": "178IU",
+            "vitaminC": "6mg",
+            "vitaminD": "3mg",
+            "addedSugar": null,
+            "portionSize": "170g",
+            "portion": "1 6 OZ",
+            "isPlantBased": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "AFTERNOON SNACK",
+    "groups": [
+      {
+        "name": "MISCELLANEOUS",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "MISCELLANEOUS",
+            "courseSortOrder": 0,
+            "meal": "AFTERNOON SNACK",
+            "menuItemId": 7012374647,
+            "formalName": "Have A Nice Day",
+            "description": "",
+            "price": 0.0,
+            "ingredients": "Peripherals Fall Menu",
+            "allergens": [],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "",
+            "caloriesFromFat": "",
+            "fat": "",
+            "saturatedFat": "",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "",
+            "sodium": "0mg",
+            "carbohydrates": "",
+            "dietaryFiber": "",
+            "sugar": "",
+            "protein": "",
+            "potassium": "",
+            "iron": "0mg",
+            "calcium": "0mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "454g",
+            "portion": "1 EA",
+            "isPlantBased": false
+          }
+        ]
+      },
+      {
+        "name": "PIZZA",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "PIZZA",
+            "courseSortOrder": 0,
+            "meal": "AFTERNOON SNACK",
+            "menuItemId": 7012374635,
+            "formalName": "Cheese Pizza",
+            "description": "Pizza crust topped with tomato sauce and shredded mozzarella cheese",
+            "price": 0.0,
+            "ingredients": "Pizza Dough (Enriched Unbleached Wheat Flour (Wheat Flour, Niacin, Iron as Ferrous Sulfate, Thiamine Mononitrate, Enzyme, Riboflavin, Folic Acid), Water, Yeast, contains less than 2% of the following:  Palm Oil, Salt, Buttermilk, Sugar, Soybean Oil, Leavening (Baking Soda, Sodium Aluminum Phosphate), Cheddar Cheese (Milk, Cheese Cultures, Salt, Enzymes), Pasteurized Part Skim Milk, Whey Powder (Milk Derivative), Garlic Powder, Cheese Culture, Guar Gum, Malted Barley Flour, Dextrose, Xanthan Gum, DATEM, Enzyme, Sodium Phosphate, Lactic Acid, Ascorbic Acid); Pizza Sauce (Vine Ripened Fresh Tomatoes, Sugar, Salt, Spices, Salt, Garlic Powder, Extra Virgin Olive Oil); Shredded Part Skim Mozzarella Cheese (Pasteurized Part Skim Milk, Cheese Culture, Salt, and Enzymes, Potato Starch and Powdered Cellulose added to prevent caking); Canola Oil; Italian Seasoning (Marjoram, Thyme, Rosemary, Savory, Sage, Oregano, and Basil); Garlic Powder",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "250",
+            "caloriesFromFat": "70",
+            "fat": "8g",
+            "saturatedFat": "4g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "1g",
+            "cholesterol": "15mg",
+            "sodium": "730mg",
+            "carbohydrates": "34g",
+            "dietaryFiber": "2g",
+            "sugar": "3g",
+            "protein": "11g",
+            "potassium": "170mg",
+            "iron": "2mg",
+            "calcium": "169mg",
+            "vitaminA": "174IU",
+            "vitaminC": "0mg",
+            "vitaminD": "1mg",
+            "addedSugar": null,
+            "portionSize": "116g",
+            "portion": "1 SLC",
+            "isPlantBased": false
+          },
+          {
+            "course": "PIZZA",
+            "courseSortOrder": 0,
+            "meal": "AFTERNOON SNACK",
+            "menuItemId": 7012374610,
+            "formalName": "Pepperoni Pizza",
+            "description": "Pizza crust topped with tomato sauce, shredded mozzarella cheese and pepperoni",
+            "price": 0.0,
+            "ingredients": "Pizza Dough (Enriched Unbleached Wheat Flour (Wheat Flour, Niacin, Iron as Ferrous Sulfate, Thiamine Mononitrate, Enzyme, Riboflavin, Folic Acid), Water, Yeast, contains less than 2% of the following:  Palm Oil, Salt, Buttermilk, Sugar, Soybean Oil, Leavening (Baking Soda, Sodium Aluminum Phosphate), Cheddar Cheese (Milk, Cheese Cultures, Salt, Enzymes), Pasteurized Part Skim Milk, Whey Powder (Milk Derivative), Garlic Powder, Cheese Culture, Guar Gum, Malted Barley Flour, Dextrose, Xanthan Gum, DATEM, Enzyme, Sodium Phosphate, Lactic Acid, Ascorbic Acid); Shredded Part Skim Mozzarella Cheese (Pasteurized Part Skim Milk, Cheese Culture, Salt, and Enzymes, Potato Starch and Powdered Cellulose added to prevent caking); Pizza Sauce (Vine Ripened Fresh Tomatoes, Sugar, Salt, Spices, Salt, Garlic Powder, Extra Virgin Olive Oil); Pepperoni (Pork, Beef, Salt, Spices, Dextrose, Oleoresin Of Paprika, Lactic Acid Starter Culture, Garlic Powder, Sodium Nitrite, BHA, BHT, Citric Acid); Canola Oil; Italian Seasoning (Marjoram, Thyme, Rosemary, Savory, Sage, Oregano, and Basil); Garlic Powder",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "280",
+            "caloriesFromFat": "90",
+            "fat": "10g",
+            "saturatedFat": "5g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "2g",
+            "cholesterol": "20mg",
+            "sodium": "820mg",
+            "carbohydrates": "34g",
+            "dietaryFiber": "2g",
+            "sugar": "3g",
+            "protein": "13g",
+            "potassium": "190mg",
+            "iron": "2mg",
+            "calcium": "179mg",
+            "vitaminA": "185IU",
+            "vitaminC": "0mg",
+            "vitaminD": "1mg",
+            "addedSugar": null,
+            "portionSize": "123g",
+            "portion": "1 SLC",
+            "isPlantBased": false
+          }
+        ]
+      },
+      {
+        "name": "SANDWICH - HOT",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "SANDWICH - HOT",
+            "courseSortOrder": 0,
+            "meal": "AFTERNOON SNACK",
+            "menuItemId": 7012374642,
+            "formalName": "Hamburger On Bun",
+            "description": "Hamburger with lettuce and tomato on a toasted bun",
+            "price": 0.0,
+            "ingredients": "Seasoned Beef Patty (Beef, Water, Spice, Salt); Hamburger Bun (Unbleached, Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup, Yeast, Soybean Oil, contains 2% or less of the following: Wheat Gluten, Salt, Monocalcium Phosphate, Monoglycerides, Wheat Flour, Calcium Sulfate, Ammonium Sulfate, Ascorbic Acid, Enzymes, Calcium Propionate (preservative)); Tomato; Green Leaf Lettuce",
+            "allergens": [
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 16,
+                "name": "Sesame"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "400",
+            "caloriesFromFat": "210",
+            "fat": "23g",
+            "saturatedFat": "9g",
+            "transFat": "2g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "55mg",
+            "sodium": "510mg",
+            "carbohydrates": "28g",
+            "dietaryFiber": "1g",
+            "sugar": "4g",
+            "protein": "19g",
+            "potassium": "330mg",
+            "iron": "3mg",
+            "calcium": "67mg",
+            "vitaminA": "796IU",
+            "vitaminC": "4mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "167g",
+            "portion": "1 SANDWICH",
+            "isPlantBased": false
+          },
+          {
+            "course": "SANDWICH - HOT",
+            "courseSortOrder": 0,
+            "meal": "AFTERNOON SNACK",
+            "menuItemId": 7012374620,
+            "formalName": "Veggie Burger On Bun",
+            "description": "Gardenburger burger, lettuce and tomato on a toasted bun",
+            "price": 0.0,
+            "ingredients": "Garden Burger (Cooked Brown Rice (Long Grain Brown Rice, Water), Water, Mushrooms, Onions, Rolled Oats, Mozzarella Cheese (Pasteurized Part Skim Milk, Cheese Cultures, Salt, Annatto for color, Enzymes), Hydrated Bulgur Wheat (Water, Bulgur Wheat), Cheddar Cheese (Pasteurized Milk, Salt, Enzymes, Cultures, Annatto), Soy Protein Concentrate, contains two percent or less of Salt, Parsley, Modified Vegetable Gum, Wheat Gluten, Garlic Powder, Yeast Extract, Autolyzed Yeast Extract, Spices, Citric Acid, Malted Barley, Natural Flavors, Annatto color, Whey, Maltodextrin, Malted Barley Flour, Dehydrated Onion, Dehydrated Mushrooms, Guar Gum, Turmeric color); Hamburger Bun (Unbleached, Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup, Yeast, Soybean Oil, contains 2% or less of the following: Wheat Gluten, Salt, Monocalcium Phosphate, Monoglycerides, Wheat Flour, Calcium Sulfate, Ammonium Sulfate, Ascorbic Acid, Enzymes, Calcium Propionate (preservative)); Tomato; Green Leaf Lettuce",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 16,
+                "name": "Sesame"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "280",
+            "caloriesFromFat": "50",
+            "fat": "6g",
+            "saturatedFat": "2g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "1g",
+            "cholesterol": "5mg",
+            "sodium": "740mg",
+            "carbohydrates": "47g",
+            "dietaryFiber": "3g",
+            "sugar": "6g",
+            "protein": "12g",
+            "potassium": "290mg",
+            "iron": "3mg",
+            "calcium": "148mg",
+            "vitaminA": "985IU",
+            "vitaminC": "8mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "181g",
+            "portion": "1 SANDWICH",
+            "isPlantBased": false
+          },
+          {
+            "course": "SANDWICH - HOT",
+            "courseSortOrder": 0,
+            "meal": "AFTERNOON SNACK",
+            "menuItemId": 7012374626,
+            "formalName": "Cheeseburger On Bun",
+            "description": "A hamburger patty With American cheese, lettuce and tomato on a bun",
+            "price": 0.0,
+            "ingredients": "Seasoned Beef Patty (Beef, Water, Spice, Salt); Hamburger Bun (Unbleached, Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup, Yeast, Soybean Oil, contains 2% or less of the following: Wheat Gluten, Salt, Monocalcium Phosphate, Monoglycerides, Wheat Flour, Calcium Sulfate, Ammonium Sulfate, Ascorbic Acid, Enzymes, Calcium Propionate (preservative)); Tomato; Yellow American Cheese (American Cheese (Milk, Cheese Culture, Salt, Enzymes), Water, Cream, Sodium Citrate, Salt, Sorbic Acid as a Preservative, color added (if colored (Annatto OS 460 and Oleoresin Paprika Non GMO)), Sunflower Lecithin for separation); Green Leaf Lettuce",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 16,
+                "name": "Sesame"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "450",
+            "caloriesFromFat": "240",
+            "fat": "27g",
+            "saturatedFat": "12g",
+            "transFat": "2g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "70mg",
+            "sodium": "750mg",
+            "carbohydrates": "29g",
+            "dietaryFiber": "1g",
+            "sugar": "5g",
+            "protein": "21g",
+            "potassium": "340mg",
+            "iron": "3mg",
+            "calcium": "148mg",
+            "vitaminA": "800IU",
+            "vitaminC": "4mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "182g",
+            "portion": "1 SANDWICH",
+            "isPlantBased": false
+          }
+        ]
+      },
+      {
+        "name": "STARCH",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "STARCH",
+            "courseSortOrder": 0,
+            "meal": "AFTERNOON SNACK",
+            "menuItemId": 7012374629,
+            "formalName": "French Fries",
+            "description": "",
+            "price": 0.0,
+            "ingredients": "French Fries (Potatoes, Vegetable Oil (Contains One or More of The Following Oils: Canola, Soybean, Cottonseed, Sunflower, Corn). Contains 2% or less of Dextrose, Sodium Acid Pyrophosphate Added to Maintain Color); Shortening Fry (Liquid and Hydrogenated Soybean Oil, TBHQ and Citric Acid added to protect flavor, Dimethylpolysiloxane (an anti-foaming agent))",
+            "allergens": [
+              {
+                "allergen": 7,
+                "name": "Soy"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "200",
+            "caloriesFromFat": "120",
+            "fat": "13g",
+            "saturatedFat": "2.5g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "7g",
+            "cholesterol": "0mg",
+            "sodium": "25mg",
+            "carbohydrates": "22g",
+            "dietaryFiber": "2g",
+            "sugar": "1g",
+            "protein": "2g",
+            "potassium": "330mg",
+            "iron": "0mg",
+            "calcium": "12mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "113g",
+            "portion": "1 4 OZ",
+            "isPlantBased": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DINNER",
+    "groups": [
+      {
+        "name": "DESSERTS",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "DESSERTS",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374616,
+            "formalName": "Cherry Cobbler With Biscuit Topping",
+            "description": "Warm baked fruit with sweet biscuit topper",
+            "price": 0.0,
+            "ingredients": "Cherry Pie Filling (Cherries, Sugar, Water, Food Starch Modified (Corn), Cultured Sugar, Ascorbic Acid (Vitamin C) added to maintain color, Natural Flavor and Red 40 Color); Buttermilk Biscuit Mix (Enriched Flour Bleached (Wheat Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Palm Oil, Leavening (Baking Soda, Sodium Aluminum Phosphate, Monocalcium Phosphate), Salt, Buttermilk, Dextrose, Soy Flour, Egg); Tap Water; Granulated Sugar (100% Pure Cane Sugar)",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 2,
+                "name": "Egg"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "180",
+            "caloriesFromFat": "35",
+            "fat": "4g",
+            "saturatedFat": "3g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "0mg",
+            "sodium": "220mg",
+            "carbohydrates": "34g",
+            "dietaryFiber": "0g",
+            "sugar": "19g",
+            "protein": "2g",
+            "potassium": "60mg",
+            "iron": "1mg",
+            "calcium": "26mg",
+            "vitaminA": "430IU",
+            "vitaminC": "2mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "102g",
+            "portion": "1 #12 SCOOP",
+            "isPlantBased": false
+          },
+          {
+            "course": "DESSERTS",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374655,
+            "formalName": "Lemon Cheesecake Bar",
+            "description": "Lemon cheesecake filling layered between two layers of buttery cookie crust and topping",
+            "price": 0.0,
+            "ingredients": "Yellow Cake Mix (Sugar, Enriched Flour Bleached (Wheat Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Palm Oil, Leavening (Sodium Aluminum Phosphate, Baking Soda). Contains 2% or less of: Dextrose, Egg White, Modified Corn Starch, Propylene Glycol Mono and Diesters of Fatty Acids, Salt, Nonfat Milk, Mono and Diglycerides, Soy Lecithin, Xanthan Gum, Whey, Natural Flavor); Cream Cheese (Pasteurized Milk and Cream, Salt, Carob Bean Gum, Cheese Culture); Unsalted Butter (Cream, Natural Flavoring); Pasteurized Lemon Juice; Pasteurized Eggs (Whole Eggs, Citric Acid, Water); Granulated Sugar (100% Pure Cane Sugar); All Purpose Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid); Lemon",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 2,
+                "name": "Egg"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "340",
+            "caloriesFromFat": "150",
+            "fat": "17g",
+            "saturatedFat": "10g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "50mg",
+            "sodium": "360mg",
+            "carbohydrates": "39g",
+            "dietaryFiber": "0g",
+            "sugar": "23g",
+            "protein": "4g",
+            "potassium": "30mg",
+            "iron": "1mg",
+            "calcium": "16mg",
+            "vitaminA": "228IU",
+            "vitaminC": "2mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "83g",
+            "portion": "1 SLC=6x8",
+            "isPlantBased": false
+          }
+        ]
+      },
+      {
+        "name": "ENTREE",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "ENTREE",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374648,
+            "formalName": "Mixed Vegetables",
+            "description": "",
+            "price": 0.0,
+            "ingredients": "Mixed Vegetables (Carrots, Corn, Green Beans, Peas, Lima Beans); Margarine (Palm Oil, Water, Soybean Oil, contains less than 2% of Soy Lecithin, Vegetable Mono &amp; Diglycerides, Potassium Sorbate (preservative), Citric Acid, Natural &amp; Artificial Flavor, Beta Carotene (color), Vitamin A Palmitate added)",
+            "allergens": [
+              {
+                "allergen": 7,
+                "name": "Soy"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": true,
+            "isSwell": false,
+            "calories": "50",
+            "caloriesFromFat": "10",
+            "fat": "1g",
+            "saturatedFat": "0g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "0mg",
+            "sodium": "20mg",
+            "carbohydrates": "9g",
+            "dietaryFiber": "2g",
+            "sugar": "2g",
+            "protein": "2g",
+            "potassium": "135mg",
+            "iron": "1mg",
+            "calcium": "17mg",
+            "vitaminA": "0IU",
+            "vitaminC": "5mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "76g",
+            "portion": "1 1/2 CUP",
+            "isPlantBased": true
+          },
+          {
+            "course": "ENTREE",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374600,
+            "formalName": "Herbed Breaded Pork Chop",
+            "description": "Deep-fried to brown, herbed breaded pork chop, oven-baked to finish with chicken broth",
+            "price": 0.0,
+            "ingredients": "Pork Loin; White Bread (Unbleached Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Sugar, Yeast, Soybean Oil, contains 2% or less of the following: Wheat Gluten, Salt, Wheat Starch, Calcium Propionate (preservative), Monocalcium Phosphate, Calcium Sulfate, Ammonium Sulfate, Potassium Sorbate (preservative), Ascorbic Acid, Enzymes); Shortening Fry (Liquid and Hydrogenated Soybean Oil, TBHQ and Citric Acid added to protect flavor, Dimethylpolysiloxane (an anti-foaming agent)); All Purpose Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid); Pasteurized Eggs (Whole Eggs, Citric Acid, Water); Tap Water; Parsley Flakes Dried; Chicken Soup Base (Roasted and Cooked Chicken, Maltodextrin, Chicken Fat, Chicken Broth, Sugar, Salt, Autolyzed Yeast Extract, Palm Oil, Modified Tapioca Starch, Potassium Chloride, Natural Flavors, Modified Corn Starch, Gum Arabic, Turmeric, Lactic Acid, Citric Acid); Kosher Salt; White Pepper Ground",
+            "allergens": [
+              {
+                "allergen": 2,
+                "name": "Egg"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "370",
+            "caloriesFromFat": "220",
+            "fat": "24g",
+            "saturatedFat": "7g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "7g",
+            "cholesterol": "90mg",
+            "sodium": "240mg",
+            "carbohydrates": "11g",
+            "dietaryFiber": "0g",
+            "sugar": "1g",
+            "protein": "25g",
+            "potassium": "400mg",
+            "iron": "2mg",
+            "calcium": "44mg",
+            "vitaminA": "23IU",
+            "vitaminC": "1mg",
+            "vitaminD": "1mg",
+            "addedSugar": null,
+            "portionSize": "123g",
+            "portion": "1 EA",
+            "isPlantBased": false
+          },
+          {
+            "course": "ENTREE",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374650,
+            "formalName": "Rice Pilaf",
+            "description": "Long grain rice blended with mushrooms, peppers and herbs",
+            "price": 0.0,
+            "ingredients": "Converted White Rice (Long Grain Parboiled Rice Enriched with Iron (Ferric Phosphate), Niacin, Thiamine, Mononitrate &amp; Folic Acid); Tap Water; Button Mushroom; Yellow Onion; Garlic; Green Bell Pepper; Red Bell Peppers; Margarine (Palm Oil, Water, Soybean Oil, contains less than 2% of Soy Lecithin, Vegetable Mono &amp; Diglycerides, Potassium Sorbate (preservative), Citric Acid, Natural &amp; Artificial Flavor, Beta Carotene (color), Vitamin A Palmitate added); Black Pepper; Vegetable Soup Base (Maltodextrin, Onions, Sugar, Celery, Onion Powder, Salt, Yeast Extract, Carrots, Potassium Chloride, Corn Oil, Modified Tapioca Starch, Carrot Powder, Water, Carrot Juice Concentrate, Tomato Paste, Disodium Inosinate, Disodium Guanylate, Garlic Powder, Natural Flavor, Citric Acid, extractives of Paprika (for color)); Turmeric Ground; Oregano Leaf Dried",
+            "allergens": [
+              {
+                "allergen": 7,
+                "name": "Soy"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": true,
+            "isSwell": false,
+            "calories": "230",
+            "caloriesFromFat": "10",
+            "fat": "1g",
+            "saturatedFat": "0.5g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "0mg",
+            "sodium": "20mg",
+            "carbohydrates": "47g",
+            "dietaryFiber": "2g",
+            "sugar": "1g",
+            "protein": "5g",
+            "potassium": "210mg",
+            "iron": "3mg",
+            "calcium": "60mg",
+            "vitaminA": "215IU",
+            "vitaminC": "14mg",
+            "vitaminD": "1mg",
+            "addedSugar": null,
+            "portionSize": "113g",
+            "portion": "1 4 OZ",
+            "isPlantBased": true
+          }
+        ]
+      },
+      {
+        "name": "GRILL",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "GRILL",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374621,
+            "formalName": "Veggie Burger On Bun",
+            "description": "Gardenburger burger, lettuce and tomato on a toasted bun",
+            "price": 0.0,
+            "ingredients": "Garden Burger (Cooked Brown Rice (Long Grain Brown Rice, Water), Water, Mushrooms, Onions, Rolled Oats, Mozzarella Cheese (Pasteurized Part Skim Milk, Cheese Cultures, Salt, Annatto for color, Enzymes), Hydrated Bulgur Wheat (Water, Bulgur Wheat), Cheddar Cheese (Pasteurized Milk, Salt, Enzymes, Cultures, Annatto), Soy Protein Concentrate, contains two percent or less of Salt, Parsley, Modified Vegetable Gum, Wheat Gluten, Garlic Powder, Yeast Extract, Autolyzed Yeast Extract, Spices, Citric Acid, Malted Barley, Natural Flavors, Annatto color, Whey, Maltodextrin, Malted Barley Flour, Dehydrated Onion, Dehydrated Mushrooms, Guar Gum, Turmeric color); Hamburger Bun (Unbleached, Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, High Fructose Corn Syrup, Yeast, Soybean Oil, contains 2% or less of the following: Wheat Gluten, Salt, Monocalcium Phosphate, Monoglycerides, Wheat Flour, Calcium Sulfate, Ammonium Sulfate, Ascorbic Acid, Enzymes, Calcium Propionate (preservative)); Tomato; Green Leaf Lettuce",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 16,
+                "name": "Sesame"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "280",
+            "caloriesFromFat": "50",
+            "fat": "6g",
+            "saturatedFat": "2g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "1g",
+            "cholesterol": "5mg",
+            "sodium": "740mg",
+            "carbohydrates": "47g",
+            "dietaryFiber": "3g",
+            "sugar": "6g",
+            "protein": "12g",
+            "potassium": "290mg",
+            "iron": "3mg",
+            "calcium": "148mg",
+            "vitaminA": "985IU",
+            "vitaminC": "8mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "181g",
+            "portion": "1 SANDWICH",
+            "isPlantBased": false
+          },
+          {
+            "course": "GRILL",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374615,
+            "formalName": "Chicken Tender Parmesan Loafer Sandwich",
+            "description": "Toasted crispy chicken tender sandwich with tomato sauce, parmesan and mozzarella cheese",
+            "price": 0.0,
+            "ingredients": "Baguette (Unbleached, Unbromated Wheat Flour (Malted Barley Flour, Niacin, Iron (reduced), Thiamine Mononitrate, Riboflavin, and Folic Acid), Filtered Water, Levain, Rye Flour, contains 2% or less of: Sea Salt, Yeast, Malt); Southern Style Chicken Fritter (Containing up to 20% of a solution of Water, Wheat Flour, Salt. Battered and Breaded with: Wheat Flour, Water, Salt, Leavening (Cream of Tartar, Sodium Bicarbonate), Spices, Wheat Gluten, Yeast Extract, Torula Yeast, Green Bell Pepper Powder, Egg Whites.  Breading set in Vegetable Oil); Marinara (Fresh Vine Ripened Unpeeled Tomatoes, Tomato Puree, Dehydrated Onion, Extra Virgin Olive Oil, Salt, Spice Blend (Garlic, Spices), Citric Acid); Shredded Part Skim Mozzarella Cheese (Pasteurized Part Skim Milk, Cheese Culture, Salt, and Enzymes, Potato Starch and Powdered Cellulose added to prevent caking); Shortening Fry (Liquid and Hydrogenated Soybean Oil, TBHQ and Citric Acid added to protect flavor, Dimethylpolysiloxane (an anti-foaming agent)); Shredded Parmesan Cheese (Pasteurized Part Skim Milk, Cheese Culture, Salt, and Enzymes, Potato Starch and Powdered Cellulose added to prevent caking)",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 2,
+                "name": "Egg"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "180",
+            "caloriesFromFat": "60",
+            "fat": "7g",
+            "saturatedFat": "2.5g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "3g",
+            "cholesterol": "15mg",
+            "sodium": "410mg",
+            "carbohydrates": "20g",
+            "dietaryFiber": "1g",
+            "sugar": "1g",
+            "protein": "9g",
+            "potassium": "190mg",
+            "iron": "1mg",
+            "calcium": "109mg",
+            "vitaminA": "114IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "85g",
+            "portion": "1 1/2 SANDWICH",
+            "isPlantBased": false
+          },
+          {
+            "course": "GRILL",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374640,
+            "formalName": "Grilled Cheese",
+            "description": "Slow grilled sandwich on white bread with American cheese",
+            "price": 0.0,
+            "ingredients": "White Bread (Unbleached Enriched Flour (Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid), Water, Sugar, Yeast, Soybean Oil, contains 2% or less of the following: Wheat Gluten, Salt, Wheat Starch, Calcium Propionate (preservative), Monocalcium Phosphate, Calcium Sulfate, Ammonium Sulfate, Potassium Sorbate (preservative), Ascorbic Acid, Enzymes); Yellow American Cheese (American Cheese (Milk, Cheese Culture, Salt, Enzymes), Water, Cream, Sodium Citrate, Salt, Sorbic Acid as a Preservative, color added (if colored (Annatto OS 460 and Oleoresin Paprika Non GMO)), Sunflower Lecithin for separation); Margarine (Palm Oil, Water, Soybean Oil, contains less than 2% of Soy Lecithin, Vegetable Mono &amp; Diglycerides, Potassium Sorbate (preservative), Citric Acid, Natural &amp; Artificial Flavor, Beta Carotene (color), Vitamin A Palmitate added)",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "520",
+            "caloriesFromFat": "180",
+            "fat": "20g",
+            "saturatedFat": "10g",
+            "transFat": "1g",
+            "polyunsaturatedFat": "1g",
+            "cholesterol": "40mg",
+            "sodium": "1330mg",
+            "carbohydrates": "66g",
+            "dietaryFiber": "2g",
+            "sugar": "7g",
+            "protein": "19g",
+            "potassium": "160mg",
+            "iron": "4mg",
+            "calcium": "403mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "167g",
+            "portion": "1 SANDWICH",
+            "isPlantBased": false
+          },
+          {
+            "course": "GRILL",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374607,
+            "formalName": "Cheese Quesadilla",
+            "description": "Griddled flour tortilla with cheddar cheese",
+            "price": 0.0,
+            "ingredients": "Flour Tortilla (Enriched Unbleached Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin And Folic Acid), Water, Vegetable Shortening (contains one or more of the following: Palm Oil and/or Corn Oil), contains 2% or less of the following: Salt, Aluminum Free Leavening (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Cornstarch, Monocalcium Phosphate), Wheat Protein, Preservatives (Calcium Propionate, Sorbic Acid), Dough Conditioner (Fumaric Acid, Xanthan Gum, Mono and Diglycerides, Sodium Metabisulphite)); Shredded Mild Cheddar Cheese (Pasteurized Milk, Cheese Culture, Salt, Enzymes, Annatto (vegetable color), Potato Starch, Powdered Cellulose added to prevent caking)",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "330",
+            "caloriesFromFat": "140",
+            "fat": "15g",
+            "saturatedFat": "8g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "30mg",
+            "sodium": "600mg",
+            "carbohydrates": "36g",
+            "dietaryFiber": "1g",
+            "sugar": "1g",
+            "protein": "12g",
+            "potassium": "75mg",
+            "iron": "2mg",
+            "calcium": "288mg",
+            "vitaminA": "352IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "99g",
+            "portion": "1 QUESADILLA",
+            "isPlantBased": false
+          },
+          {
+            "course": "GRILL",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374631,
+            "formalName": "French Fries",
+            "description": "",
+            "price": 0.0,
+            "ingredients": "French Fries (Potatoes, Vegetable Oil (Contains One or More of The Following Oils: Canola, Soybean, Cottonseed, Sunflower, Corn). Contains 2% or less of Dextrose, Sodium Acid Pyrophosphate Added to Maintain Color); Shortening Fry (Liquid and Hydrogenated Soybean Oil, TBHQ and Citric Acid added to protect flavor, Dimethylpolysiloxane (an anti-foaming agent))",
+            "allergens": [
+              {
+                "allergen": 7,
+                "name": "Soy"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "200",
+            "caloriesFromFat": "120",
+            "fat": "13g",
+            "saturatedFat": "2.5g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "7g",
+            "cholesterol": "0mg",
+            "sodium": "25mg",
+            "carbohydrates": "22g",
+            "dietaryFiber": "2g",
+            "sugar": "1g",
+            "protein": "2g",
+            "potassium": "330mg",
+            "iron": "0mg",
+            "calcium": "12mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "113g",
+            "portion": "1 4 OZ",
+            "isPlantBased": true
+          }
+        ]
+      },
+      {
+        "name": "INTERNATIONAL",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "INTERNATIONAL",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374633,
+            "formalName": "Fresh Broccoli Florets",
+            "description": null,
+            "price": 0.0,
+            "ingredients": "Broccoli; Tap Water",
+            "allergens": [],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": true,
+            "isSwell": false,
+            "calories": "10",
+            "caloriesFromFat": "0",
+            "fat": "0g",
+            "saturatedFat": "0g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "0mg",
+            "sodium": "10mg",
+            "carbohydrates": "2g",
+            "dietaryFiber": "0g",
+            "sugar": "0g",
+            "protein": "0g",
+            "potassium": "85mg",
+            "iron": "0mg",
+            "calcium": "11mg",
+            "vitaminA": "437IU",
+            "vitaminC": "18mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "28g",
+            "portion": "1 OZ",
+            "isPlantBased": true
+          },
+          {
+            "course": "INTERNATIONAL",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374649,
+            "formalName": "Asian Noodle Stir Fry",
+            "description": "Rice noodles stir fried with broccoli, peppers, fresh ginger and scallions in a spicy tahini lime sauce",
+            "price": 0.0,
+            "ingredients": "Broccoli; Tap Water; Red Bell Peppers; Rice Stick Noodles (Rice Flour); Low Sodium Soy Sauce (Water, Soybeans, Wheat, Salt, Lactic Acid, Sodium Benzoate: less than 1/10 of 1% as a preservative); Green Onion; Pasteurized Lime Juice; Ginger Root; Sesame Seed Oil; Tahini Sesame Seed Paste (Pure Ground Hulled Sesame Seeds \n); Sesame Seed White; Canola Oil; Garlic; Fresh Cilantro; Crushed Red Pepper",
+            "allergens": [
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 16,
+                "name": "Sesame"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "150",
+            "caloriesFromFat": "60",
+            "fat": "7g",
+            "saturatedFat": "1g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "2g",
+            "cholesterol": "0mg",
+            "sodium": "340mg",
+            "carbohydrates": "18g",
+            "dietaryFiber": "4g",
+            "sugar": "2g",
+            "protein": "5g",
+            "potassium": "260mg",
+            "iron": "1mg",
+            "calcium": "83mg",
+            "vitaminA": "1386IU",
+            "vitaminC": "63mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "170g",
+            "portion": "1 6 OZ",
+            "isPlantBased": true
+          }
+        ]
+      },
+      {
+        "name": "MISCELLANEOUS",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "MISCELLANEOUS",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374645,
+            "formalName": "Have A Nice Day",
+            "description": "",
+            "price": 0.0,
+            "ingredients": "Peripherals Fall Menu",
+            "allergens": [],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "",
+            "caloriesFromFat": "",
+            "fat": "",
+            "saturatedFat": "",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "",
+            "sodium": "0mg",
+            "carbohydrates": "",
+            "dietaryFiber": "",
+            "sugar": "",
+            "protein": "",
+            "potassium": "",
+            "iron": "0mg",
+            "calcium": "0mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "454g",
+            "portion": "1 EA",
+            "isPlantBased": false
+          }
+        ]
+      },
+      {
+        "name": "PIZZA/PASTA",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "PIZZA/PASTA",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374636,
+            "formalName": "Cheese Pizza",
+            "description": "Pizza crust topped with tomato sauce and shredded mozzarella cheese",
+            "price": 0.0,
+            "ingredients": "Pizza Dough (Enriched Unbleached Wheat Flour (Wheat Flour, Niacin, Iron as Ferrous Sulfate, Thiamine Mononitrate, Enzyme, Riboflavin, Folic Acid), Water, Yeast, contains less than 2% of the following:  Palm Oil, Salt, Buttermilk, Sugar, Soybean Oil, Leavening (Baking Soda, Sodium Aluminum Phosphate), Cheddar Cheese (Milk, Cheese Cultures, Salt, Enzymes), Pasteurized Part Skim Milk, Whey Powder (Milk Derivative), Garlic Powder, Cheese Culture, Guar Gum, Malted Barley Flour, Dextrose, Xanthan Gum, DATEM, Enzyme, Sodium Phosphate, Lactic Acid, Ascorbic Acid); Pizza Sauce (Vine Ripened Fresh Tomatoes, Sugar, Salt, Spices, Salt, Garlic Powder, Extra Virgin Olive Oil); Shredded Part Skim Mozzarella Cheese (Pasteurized Part Skim Milk, Cheese Culture, Salt, and Enzymes, Potato Starch and Powdered Cellulose added to prevent caking); Canola Oil; Italian Seasoning (Marjoram, Thyme, Rosemary, Savory, Sage, Oregano, and Basil); Garlic Powder",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "250",
+            "caloriesFromFat": "70",
+            "fat": "8g",
+            "saturatedFat": "4g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "1g",
+            "cholesterol": "15mg",
+            "sodium": "730mg",
+            "carbohydrates": "34g",
+            "dietaryFiber": "2g",
+            "sugar": "3g",
+            "protein": "11g",
+            "potassium": "170mg",
+            "iron": "2mg",
+            "calcium": "169mg",
+            "vitaminA": "174IU",
+            "vitaminC": "0mg",
+            "vitaminD": "1mg",
+            "addedSugar": null,
+            "portionSize": "116g",
+            "portion": "1 SLC",
+            "isPlantBased": false
+          },
+          {
+            "course": "PIZZA/PASTA",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374656,
+            "formalName": "Parmesan Sage Cream Sauce",
+            "description": "Parmesan cheese, milk and fresh sage",
+            "price": 0.0,
+            "ingredients": "2% Milk; Shredded Parmesan Cheese (Pasteurized Part Skim Milk, Cheese Culture, Salt, and Enzymes, Potato Starch and Powdered Cellulose added to prevent caking); Unsalted Butter (Cream, Natural Flavoring); All Purpose Flour (Bleached Wheat Flour, Malted Barley Flour, Niacin, Iron, Thiamin Mononitrate, Riboflavin, Folic Acid); Fresh Sage; Kosher Salt; Black Pepper",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "150",
+            "caloriesFromFat": "80",
+            "fat": "9g",
+            "saturatedFat": "6g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "25mg",
+            "sodium": "240mg",
+            "carbohydrates": "10g",
+            "dietaryFiber": "0g",
+            "sugar": "6g",
+            "protein": "7g",
+            "potassium": "170mg",
+            "iron": "0mg",
+            "calcium": "210mg",
+            "vitaminA": "295IU",
+            "vitaminC": "0mg",
+            "vitaminD": "1mg",
+            "addedSugar": null,
+            "portionSize": "117g",
+            "portion": "1 4 FLOZ",
+            "isPlantBased": false
+          },
+          {
+            "course": "PIZZA/PASTA",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374638,
+            "formalName": "Marinara Sauce",
+            "description": "",
+            "price": 0.0,
+            "ingredients": "Marinara (Fresh Vine Ripened Unpeeled Tomatoes, Tomato Puree, Dehydrated Onion, Extra Virgin Olive Oil, Salt, Spice Blend (Garlic, Spices), Citric Acid)",
+            "allergens": [],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "50",
+            "caloriesFromFat": "10",
+            "fat": "1g",
+            "saturatedFat": "0g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "0mg",
+            "sodium": "240mg",
+            "carbohydrates": "8g",
+            "dietaryFiber": "2g",
+            "sugar": "5g",
+            "protein": "2g",
+            "potassium": "440mg",
+            "iron": "1mg",
+            "calcium": "20mg",
+            "vitaminA": "0IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "116g",
+            "portion": "1 1/2 CUP",
+            "isPlantBased": true
+          },
+          {
+            "course": "PIZZA/PASTA",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374612,
+            "formalName": "Pepperoni Pizza",
+            "description": "Pizza crust topped with tomato sauce, shredded mozzarella cheese and pepperoni",
+            "price": 0.0,
+            "ingredients": "Pizza Dough (Enriched Unbleached Wheat Flour (Wheat Flour, Niacin, Iron as Ferrous Sulfate, Thiamine Mononitrate, Enzyme, Riboflavin, Folic Acid), Water, Yeast, contains less than 2% of the following:  Palm Oil, Salt, Buttermilk, Sugar, Soybean Oil, Leavening (Baking Soda, Sodium Aluminum Phosphate), Cheddar Cheese (Milk, Cheese Cultures, Salt, Enzymes), Pasteurized Part Skim Milk, Whey Powder (Milk Derivative), Garlic Powder, Cheese Culture, Guar Gum, Malted Barley Flour, Dextrose, Xanthan Gum, DATEM, Enzyme, Sodium Phosphate, Lactic Acid, Ascorbic Acid); Shredded Part Skim Mozzarella Cheese (Pasteurized Part Skim Milk, Cheese Culture, Salt, and Enzymes, Potato Starch and Powdered Cellulose added to prevent caking); Pizza Sauce (Vine Ripened Fresh Tomatoes, Sugar, Salt, Spices, Salt, Garlic Powder, Extra Virgin Olive Oil); Pepperoni (Pork, Beef, Salt, Spices, Dextrose, Oleoresin Of Paprika, Lactic Acid Starter Culture, Garlic Powder, Sodium Nitrite, BHA, BHT, Citric Acid); Canola Oil; Italian Seasoning (Marjoram, Thyme, Rosemary, Savory, Sage, Oregano, and Basil); Garlic Powder",
+            "allergens": [
+              {
+                "allergen": 1,
+                "name": "Milk"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "280",
+            "caloriesFromFat": "90",
+            "fat": "10g",
+            "saturatedFat": "5g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "2g",
+            "cholesterol": "20mg",
+            "sodium": "820mg",
+            "carbohydrates": "34g",
+            "dietaryFiber": "2g",
+            "sugar": "3g",
+            "protein": "13g",
+            "potassium": "190mg",
+            "iron": "2mg",
+            "calcium": "179mg",
+            "vitaminA": "185IU",
+            "vitaminC": "0mg",
+            "vitaminD": "1mg",
+            "addedSugar": null,
+            "portionSize": "123g",
+            "portion": "1 SLC",
+            "isPlantBased": false
+          },
+          {
+            "course": "PIZZA/PASTA",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374598,
+            "formalName": "Baked Garlic Breadstick",
+            "description": "",
+            "price": 0.0,
+            "ingredients": "Breadstick (Enriched Unbleached Wheat Flour (Wheat Flour, Niacin, Iron as Ferrous Sulfate, Thiamine Mononitrate, Enzyme, Riboflavin, Folic Acid), Water, Yeast, Sugar, Soybean Oil, contains less than 2% of the following:  Wheat Gluten, Eggs, Salt, Enzymes, Ascorbic Acid); Margarine (Palm Oil, Water, Soybean Oil, contains less than 2% of Soy Lecithin, Vegetable Mono &amp; Diglycerides, Potassium Sorbate (preservative), Citric Acid, Natural &amp; Artificial Flavor, Beta Carotene (color), Vitamin A Palmitate added); Garlic Powder",
+            "allergens": [
+              {
+                "allergen": 2,
+                "name": "Egg"
+              },
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": true,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "90",
+            "caloriesFromFat": "25",
+            "fat": "3g",
+            "saturatedFat": "1g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "0mg",
+            "sodium": "125mg",
+            "carbohydrates": "13g",
+            "dietaryFiber": "0g",
+            "sugar": "1g",
+            "protein": "2g",
+            "potassium": "30mg",
+            "iron": "1mg",
+            "calcium": "5mg",
+            "vitaminA": "1IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "31g",
+            "portion": "1 EA",
+            "isPlantBased": false
+          }
+        ]
+      },
+      {
+        "name": "SALAD",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "SALAD",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374627,
+            "formalName": "Chicken Salad",
+            "description": "Poached chicken breast, celery, mayonnaise, kosher salt and black pepper",
+            "price": 0.0,
+            "ingredients": "Boneless Skinless Chicken Breast; Mayonnaise (Soybean Oil, Water, Egg Yolks, Distilled Vinegar, High Fructose Corn Syrup, contains less than 2% of Salt, Spice, Calcium Disodium EDTA added to protect flavor); Celery; Kosher Salt; Black Pepper",
+            "allergens": [
+              {
+                "allergen": 2,
+                "name": "Egg"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": false,
+            "isVegetarian": false,
+            "isMindful": false,
+            "isSwell": false,
+            "calories": "310",
+            "caloriesFromFat": "240",
+            "fat": "27g",
+            "saturatedFat": "4.5g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "0g",
+            "cholesterol": "60mg",
+            "sodium": "290mg",
+            "carbohydrates": "1g",
+            "dietaryFiber": "0g",
+            "sugar": "1g",
+            "protein": "16g",
+            "potassium": "140mg",
+            "iron": "1mg",
+            "calcium": "13mg",
+            "vitaminA": "54IU",
+            "vitaminC": "0mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "85g",
+            "portion": "1 1/3 CUP",
+            "isPlantBased": false
+          }
+        ]
+      },
+      {
+        "name": "STARCH",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "STARCH",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374601,
+            "formalName": "Sweet Potato And Apple Hash",
+            "description": "Sweet potato hash cooked with Granny Smith apples, maple syrup, roasted chile peppers and fresh cilantro",
+            "price": 0.0,
+            "ingredients": "Sweet Potato; Poblano Peppers; Granny Smith Apple; Yellow Onion; Maple Flavor Pancake  Syrup (Corn Syrup, Water, contains 2% or less of Salt, Potassium Sorbate, Sodium Benzoate, Benzoic Acid, (preservatives), Natural and Artificial Flavors, Caramel Color, Cellulose Gum); Canola Oil; Garlic; Fresh Cilantro; Kosher Salt; Black Pepper",
+            "allergens": [],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": true,
+            "isSwell": false,
+            "calories": "200",
+            "caloriesFromFat": "90",
+            "fat": "10g",
+            "saturatedFat": "1g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "3g",
+            "cholesterol": "0mg",
+            "sodium": "220mg",
+            "carbohydrates": "29g",
+            "dietaryFiber": "3g",
+            "sugar": "14g",
+            "protein": "2g",
+            "potassium": "360mg",
+            "iron": "1mg",
+            "calcium": "34mg",
+            "vitaminA": "9950IU",
+            "vitaminC": "108mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "174g",
+            "portion": "1 1/2 CUP",
+            "isPlantBased": true
+          }
+        ]
+      },
+      {
+        "name": "VEGTARIAN/VEGAN",
+        "sortOrder": 0,
+        "items": [
+          {
+            "course": "VEGTARIAN/VEGAN",
+            "courseSortOrder": 0,
+            "meal": "DINNER",
+            "menuItemId": 7012374596,
+            "formalName": "Chinese Stir-fry Rice Bowl",
+            "description": "Roasted tofu with sticky rice, chow fun vegetables, roasted edamame, sesame garlic vegetables and toasted 5-spice rice",
+            "price": 0.0,
+            "ingredients": "Tap Water; Edamame; Tofu (Water, Soybeans, Calcium Sulfate, Magnesium Chloride); Jasmine Rice (Medium Grain Rice with Iron (Ferric Phosphate), Niacin, Thiamine Mononitrate, Folic Acid); Udon Noodles (Organic Wheat Flour, Salt); Carrots; Celery; Yellow Onion; Asian Style Vegetables (Broccoli, Sugar Snap Peas, Red Peppers, Bean Sprouts, Water Chestnuts); Green Cabbage; Red Cabbage; Red Bell Peppers; Canola Oil; Sesame Seed Oil; Low Sodium Soy Sauce (Water, Soybeans, Wheat, Salt, Lactic Acid, Sodium Benzoate: less than 1/10 of 1% as a preservative); Green Onion; Garlic; Shichimi Togarashi Seasoning (Spices, Sesame Seeds, Orange Peel, Salt, Nori (Seaweed)); Ginger Root; Sesame Seed White; Kosher Salt; Fresh Oregano; Crushed Red Pepper; Pasteurized Lime Juice; CHINESE FIVE SPICE (Anise, Cinnamon, Star Anise, Cloves, Ginger, Sulfiting Agents); Black Pepper; Garlic Powder",
+            "allergens": [
+              {
+                "allergen": 6,
+                "name": "Wheat"
+              },
+              {
+                "allergen": 7,
+                "name": "Soy"
+              },
+              {
+                "allergen": 16,
+                "name": "Sesame"
+              },
+              {
+                "allergen": 11,
+                "name": "Gluten"
+              }
+            ],
+            "sizes": [],
+            "addons": [],
+            "isVegan": true,
+            "isVegetarian": true,
+            "isMindful": true,
+            "isSwell": false,
+            "calories": "520",
+            "caloriesFromFat": "160",
+            "fat": "17g",
+            "saturatedFat": "2g",
+            "transFat": "0g",
+            "polyunsaturatedFat": "5g",
+            "cholesterol": "0mg",
+            "sodium": "400mg",
+            "carbohydrates": "72g",
+            "dietaryFiber": "7g",
+            "sugar": "4g",
+            "protein": "21g",
+            "potassium": "670mg",
+            "iron": "3mg",
+            "calcium": "198mg",
+            "vitaminA": "4013IU",
+            "vitaminC": "36mg",
+            "vitaminD": "0mg",
+            "addedSugar": null,
+            "portionSize": "388g",
+            "portion": "1 ENTREE FULL MEAL",
+            "isPlantBased": true
+          }
+        ]
+      }
+    ]
+  }
+]
