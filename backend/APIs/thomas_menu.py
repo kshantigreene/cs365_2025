@@ -6,8 +6,11 @@ from typing import Any, Optional, Union
 
 import requests
 
-from backend.data_classes.fooditem import FoodItem
+from backend.models import FoodItem
 from backend.helper_functions import get_current_date_str
+import logging
+
+LOG = logging.getLogger(__name__)
 
 class ThomasMenu:
 
@@ -27,12 +30,22 @@ class ThomasMenu:
 
     def get_menu(self, date: str): # date format: 'YYYY-MM-DD'
         params = {"date": date}
+        LOG.debug("Requesting Thomas menu from %s for date=%s", self.BASE_URL, date)
         response = requests.get(self.BASE_URL, headers=self.HEADERS, params=params)
-        return response.json()
+        LOG.debug("Thomas menu response status=%s", getattr(response, 'status_code', None))
+        try:
+            payload = response.json()
+            LOG.debug("Thomas menu JSON length=%d", len(json.dumps(payload)))
+            return payload
+        except Exception:
+            LOG.exception("Failed to parse Thomas menu JSON response")
+            return {}
     
     def refresh_menu(self) -> None:
+        LOG.debug("Refreshing Thomas menu cache for today")
         self.__menu = self.get_menu(get_current_date_str())
         if self.__menu:
+            LOG.debug("Writing ThomasMenu cache to %s", self._cache_path)
             self._cache_path.write_text(json.dumps(self.__menu, indent=2), encoding="utf-8")
 
     def save_json(self, file_path: str):
@@ -44,17 +57,20 @@ class ThomasMenu:
         if self.__menu is None:
             self.refresh_menu()
         data = self.__menu
-
         food_items = []
 
-        for meal in data:
+        LOG.debug("Beginning parsing of menu structure: meals=%d", len(data) if isinstance(data, list) else 0)
+        for meal_idx, meal in enumerate(data):
             meal_name = meal.get("name", "")
+            LOG.debug("Processing meal %d: %s", meal_idx, meal_name)
 
-            for group in meal.get("groups", []):
+            for group_idx, group in enumerate(meal.get("groups", [])):
                 group_name = group.get("name", "")
+                LOG.debug(" Processing group %d: %s", group_idx, group_name)
 
-                for item in group.get("items", []):
-                    
+                for item_idx, item in enumerate(group.get("items", [])):
+                    LOG.debug("  Processing item %d in group %s", item_idx, group_name)
+
                     # Safe helper for nutrients (string fields)
                     def safe_str(key: str) -> str:
                         val = item.get(key)
@@ -71,52 +87,61 @@ class ThomasMenu:
                             return int(val)
                         except (ValueError, TypeError):
                             return 0
-                    
+
                     # Build FoodItem safely
-                    food_items.append(
-                        FoodItem(
-                            meal=meal_name,
-                            group=group_name,
-                            name=safe_str("formalName"),
-                            description=safe_str("description"),
+                    fi = FoodItem(
+                        meal=meal_name,
+                        group=group_name,
+                        name=safe_str("formalName"),
+                        description=safe_str("description"),
 
-                            # Ingredients may be null OR empty string
-                            ingredients=(item.get("ingredients") or "").split("; "),
+                        # Ingredients may be null OR empty string
+                        ingredients=(item.get("ingredients") or "").split("; "),
 
-                            # Allergens may be null
-                            allergens=[a.get("name", "") for a in (item.get("allergens") or [])],
+                        # Allergens may be null
+                        allergens=[a.get("name", "") for a in (item.get("allergens") or [])],
 
-                            calories=safe_int("calories"),
-                            caloriesFromFat=safe_int("caloriesFromFat"),
+                        calories=safe_int("calories"),
+                        caloriesFromFat=safe_int("caloriesFromFat"),
 
-                            fat=safe_str("fat"),
-                            saturatedFat=safe_str("saturatedFat"),
-                            transFat=safe_str("transFat"),
-                            polyunsaturatedFat=safe_str("polyunsaturatedFat"),
-                            cholesterol=safe_str("cholesterol"),
-                            sodium=safe_str("sodium"),
-                            carbohydrates=safe_str("carbohydrates"),
-                            dietaryFiber=safe_str("dietaryFiber"),
-                            sugar=safe_str("sugar"),
-                            protein=safe_str("protein"),
-                            potassium=safe_str("potassium"),
-                            iron=safe_str("iron"),
-                            calcium=safe_str("calcium"),
-                            vitaminA=safe_str("vitaminA"),
-                            vitaminC=safe_str("vitaminC"),
-                            vitaminD=safe_str("vitaminD"),
+                        fat=safe_str("fat"),
+                        saturatedFat=safe_str("saturatedFat"),
+                        transFat=safe_str("transFat"),
+                        polyunsaturatedFat=safe_str("polyunsaturatedFat"),
+                        cholesterol=safe_str("cholesterol"),
+                        sodium=safe_str("sodium"),
+                        carbohydrates=safe_str("carbohydrates"),
+                        dietaryFiber=safe_str("dietaryFiber"),
+                        sugar=safe_str("sugar"),
+                        protein=safe_str("protein"),
+                        potassium=safe_str("potassium"),
+                        iron=safe_str("iron"),
+                        calcium=safe_str("calcium"),
+                        vitaminA=safe_str("vitaminA"),
+                        vitaminC=safe_str("vitaminC"),
+                        vitaminD=safe_str("vitaminD"),
 
-                            portionSize=safe_str("portionSize"),
-                            portion=safe_str("portion"),
+                        portionSize=safe_str("portionSize"),
+                        portion=safe_str("portion"),
 
-                            isVegan=safe_bool("isVegan"),
-                            isVegetarian=safe_bool("isVegetarian"),
-                            isMindful=safe_bool("isMindful"),
-                            isSwell=safe_bool("isSwell"),
-                            isPlantBased=safe_bool("isPlantBased"),
-                        )
+                        isVegan=safe_bool("isVegan"),
+                        isVegetarian=safe_bool("isVegetarian"),
+                        isMindful=safe_bool("isMindful"),
+                        isSwell=safe_bool("isSwell"),
+                        isPlantBased=safe_bool("isPlantBased"),
                     )
+                    # attach the original menuItemId (if present) to the FoodItem instance
+                    try:
+                        menu_item_id = item.get("menuItemId")
+                        if menu_item_id is not None:
+                            # normalize to string so downstream code can use it as a key
+                            setattr(fi, "menuItemId", str(menu_item_id))
+                    except Exception:
+                        LOG.debug("Unable to attach menuItemId for item %s", fi.name)
+                    LOG.debug("   Created FoodItem: %s (meal=%s group=%s)", fi.name, fi.meal, fi.group)
+                    food_items.append(fi)
 
+        LOG.debug("Finished parsing food items; total=%d", len(food_items))
         return food_items
 
 
@@ -127,8 +152,9 @@ class ThomasMenu:
             self.refresh_menu()
         data = self.__menu
 
-        # Lookup by item name
-        lookup = {f.name: f for f in food_items}
+        # Prefer lookup by menuItemId (string) when available, otherwise fall back to name
+        lookup_by_id = {getattr(f, 'menuItemId', None): f for f in food_items if getattr(f, 'menuItemId', None) is not None}
+        lookup_by_name = {f.name: f for f in food_items}
 
         output_items = []
 
@@ -140,25 +166,53 @@ class ThomasMenu:
 
                 for item in group.get("items", []):
                     name = item.get("formalName", "")
-
                     enriched = item.copy()
 
-                    # Add rating fields
-                    if name in lookup:
-                        food_json = lookup[name].to_json()
-                        enriched["ratingOverall"] = food_json["ratingOverall"]
-                        enriched["ratingToday"] = food_json["ratingToday"]
-                        enriched["ratingCount"] = food_json["ratingCount"]
-                    else:
-                        enriched.setdefault("ratingOverall", 0.0)
-                        enriched.setdefault("ratingToday", 0.0)
-                        enriched.setdefault("ratingCount", 0)
+                    # Extract menuItemId (if present) and normalize type to string
+                    menu_item_id = enriched.pop("menuItemId", None)
+                    if menu_item_id is not None:
+                        menu_item_id = str(menu_item_id)
 
-                    # Build the requested output structure
+                    # Determine rating values using menuItemId first, then fallback to name
+                    rating_overall = 0.0
+                    rating_today = 0.0
+                    rating_count = 0
+                    if menu_item_id and menu_item_id in lookup_by_id:
+                        food_json = lookup_by_id[menu_item_id].to_json()
+                        rating_overall = float(food_json.get("ratingOverall", 0.0))
+                        rating_today = float(food_json.get("ratingToday", 0.0))
+                        rating_count = int(food_json.get("ratingCount", 0) or 0)
+                    elif name in lookup_by_name:
+                        food_json = lookup_by_name[name].to_json()
+                        rating_overall = float(food_json.get("ratingOverall", 0.0))
+                        rating_today = float(food_json.get("ratingToday", 0.0))
+                        rating_count = int(food_json.get("ratingCount", 0) or 0)
+
+                    # Clean up enriched Meta so top-level fields aren't repeated
+                    enriched.pop("ratingOverall", None)
+                    enriched.pop("ratingToday", None)
+                    enriched.pop("ratingCount", None)
+                    enriched.pop("formalName", None)
+                    enriched.pop("meal", None)
+                    enriched.pop("groups", None)
+                    enriched.pop("name", None)
+
+                    # Move group into Meta only if it is not identical to "course"
+                    # (many menus use both; avoid duplication). Keep 'course' if present.
+                    if group_name:
+                        course_val = enriched.get("course")
+                        # Only include 'group' in Meta when it differs from 'course'
+                        if not course_val or str(course_val).strip() != str(group_name).strip():
+                            enriched["group"] = group_name
+
+                    # Build the requested output structure with ratings and menuItemId as top-level fields
                     output_items.append({
+                        "menuItemId": menu_item_id,
                         "ItemName": name,
                         "Meal": meal_name,
-                        "Group": group_name,
+                        "ratingOverall": rating_overall,
+                        "ratingToday": rating_today,
+                        "ratingCount": rating_count,
                         "Meta": enriched
                     })
 

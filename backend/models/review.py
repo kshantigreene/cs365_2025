@@ -1,5 +1,6 @@
 import uuid
 
+
 class Review:
 
     def __init__(self, rating: int, comment: str, date: str) -> None:
@@ -7,10 +8,10 @@ class Review:
         self.rating = rating
         self.comment = comment
         self.date = date
-    
+
     def __str__(self) -> str:
         return f"Rating: {self.rating}, Date: {self.date}, Comment: {self.comment}"
-    
+
     def set_rating(self, rating: int) -> None:
         self.rating = rating
 

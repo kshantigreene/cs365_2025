@@ -1,7 +1,8 @@
 from __future__ import annotations
 from typing import Optional
-from backend.data_classes.review import Review
+from .review import Review
 from dataclasses import dataclass, field
+
 
 @dataclass
 class FoodItem:
@@ -108,7 +109,7 @@ class FoodItem:
             f"Number of Reviews: {len(self.reviews)}"
         ]
         return "\n".join(info)
-    
+
     def to_json(self) -> dict:
         return {
             "formalName": self.name,
@@ -149,4 +150,3 @@ class FoodItem:
             "ratingToday": self.todayRating,
             "ratingCount": len(self.reviews)
         }
-
