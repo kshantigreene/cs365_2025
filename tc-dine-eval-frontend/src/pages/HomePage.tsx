@@ -18,10 +18,26 @@ interface Meal {
   foodItems: FoodItem[];
 }
 
+function loadFile(path: string): Promise<string> {
+  return fetch(path).then(response => {
+    if (!response.ok) { 
+      throw new Error('Network response was not ok');
+    }
+    return response.text();
+  });
+}
+
 export default function HomePage() {
   const [currentMeal, setCurrentMeal] = useState<Meal | null>(null);
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
+
+  let ret=loadFile('assets/menu_2025-12-01.json');
+  ret.then((data)=>{
+    console.log("Loaded file data:", data);
+  }).catch((error)=>{
+    console.error("Error loading file:", error);
+  });
 
   const fetchCurrentMeal = async (skipLoading = false) => {
   try {
@@ -98,7 +114,7 @@ export default function HomePage() {
       foodItems = [
         {
           id: "l1",
-          name: "Turkey Sandwich",
+          name: "Turkey Sammie",
           category: "Entrees",
           activeRating: 4.4,
           overallRating: 4.2,
