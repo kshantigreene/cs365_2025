@@ -20,11 +20,24 @@ interface Meal {
   foodItems: FoodItem[];
 }
 
+function loadFile(path: string): Promise<string> {
+  return fetch(path).then(response => {
+    if (!response.ok) { 
+      throw new Error('Network response was not ok');
+    }
+    return response.text();
+  });
+}
 export default function MealDetailPage() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const [meal, setMeal] = useState<Meal | null>(null);
   const [loading, setLoading] = useState(true);
+  loadFile('./menu_2025-12-01.json').then(data => {
+    console.log('Loaded menu file:', data);
+  }).catch(error => {
+    console.error('Error loading menu file:', error);
+  });
 
  useEffect(() => {
   const fetchMeal = async () => {
@@ -33,7 +46,7 @@ export default function MealDetailPage() {
       
       // Parse the ID: "3-1" = day 3, meal 1 (Lunch)
       const [dayId, mealIndex] = (id || "1-2").split('-').map(Number);
-      
+      console.log("Hello!!");
       // Meal templates (same for all days)
       const mealTemplates = [
         {
@@ -43,7 +56,7 @@ export default function MealDetailPage() {
           foodItems: [
             {
               id: "b1",
-              name: "Scrambled Eggs",
+              name: "Scrambled Huevos",
               category: "Protein",
               activeRating: 4.2,
               overallRating: 4.1,
@@ -95,7 +108,7 @@ export default function MealDetailPage() {
           foodItems: [
             {
               id: "l1",
-              name: "Turkey Sandwich",
+              name: "Turkey Sammie",
               category: "Entrees",
               activeRating: 4.4,
               overallRating: 4.2,
