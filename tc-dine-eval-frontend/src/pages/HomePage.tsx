@@ -53,18 +53,32 @@ export default function HomePage() {
     if (!meal) return [];
 
     const items: FoodItem[] = [];
+    //Some dummy images for a few meals
+    const images={
+      "Genoa Salami":"https://myfavouritepastime.com/wp-content/uploads/2015/09/maestro-hot-genoa-salami-myfavouritepastime-com_6723.jpg",
+      "Parmesan Panko Crusted Tilapia":"https://serpapi.com/searches/69383e77484c096bf7893246/images/6dde57c4a5cbb973a182c2bfd4682ddf1d2e14bca33d5957ed4ee5c4fee1cf30.jpeg",
+      "Cavatappi Pasta":"https://www.garnishandglaze.com/wp-content/uploads/2016/02/Cavatappi-4.jpg",
+      "Smoked Ham":"https://storage.googleapis.com/grazecart-images-prod/images/d83da4ac-9b7a-44f8-aa9b-0b0fb899e7b8.jpg",
+      "Deli Turkey Breast":"https://www.paulinamarket.com/cdn/shop/products/deliturkey.jpg",
+      "Chicken Salad":"https://www.herwholesomekitchen.com/wp-content/uploads/2021/03/chickensalad.jpg",
+      "Iced Chocolate Cake":"https://i1.wp.com/www.scientificallysweet.com/wp-content/uploads/2020/09/IMG_4087-feature-1.jpg",
+      "Pumpkin Pie":"https://tastesbetterfromscratch.com/wp-content/uploads/2022/10/PumpkinPie2-2.jpg"
 
+
+    }
     meal.groups.forEach((group: any) => {
       group.items.forEach((item: any) => {
+        console.log(group.name);
+        if(group.name!= "MISCELLANEOUS"){
         items.push({
           id: String(item.menuItemId),
           name: item.formalName,
           category: group.name,
-          activeRating: 0,
-          overallRating: 0,
-          reviewCount: 0,
-          imageUrl: "" // No images yet, can be added later
-        });
+          activeRating: Math.random()*2+3,
+          overallRating: Math.random()*2+3,
+          reviewCount: Math.floor(Math.random()*100),
+          imageUrl:images[item.formalName]  // No images yet, can be added later
+        });}
       });
     });
 
@@ -83,8 +97,8 @@ export default function HomePage() {
       const now = new Date();
       const currentHour = now.getHours();
       const currentMinute = now.getMinutes();
-      //const currentTime = currentHour + currentMinute / 60;
-      const currentTime = 11.5;
+      const currentTime = currentHour + currentMinute / 60;
+      //const currentTime = 11.5;
 
       let mealName = "Dining Hall Closed";
       let mealTime = "Next meal: Check schedule";
@@ -97,7 +111,7 @@ export default function HomePage() {
         mealRating = 4.0;
         foodItems = convertMealToFoodItems("BREAKFAST");
       }
-      else if (currentTime >= 11.5 && currentTime < 14) {
+      else if (currentTime >= 10 && currentTime < 17) {
         mealName = "Lunch";
         mealTime = "11:30 AM – 2:00 PM";
         mealRating = 4.3;
@@ -109,7 +123,7 @@ export default function HomePage() {
         mealRating = 4.2;
         foodItems = convertMealToFoodItems("DINNER");
       }
-      else if (currentTime >= 21 && currentTime < 23) {
+      else if (currentTime >= 20 && currentTime < 23) {
         mealName = "Late Night";
         mealTime = "9:00 PM – 11:00 PM";
         mealRating = 3.8;
