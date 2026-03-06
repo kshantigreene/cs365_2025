@@ -23,69 +23,7 @@ export default function HomePage() {
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
 
-  // NEW: holds the full JSON menu file once loaded
-  const [menuData, setMenuData] = useState<any[] | null>(null);
-
-  // NEW: Load JSON menu file ONE TIME from /public
-  useEffect(() => {
-    async function loadMenu() {
-      try {
-        const response = await fetch("https://calebrichmond04.pythonanywhere.com/menu/today");
-        const json = await response.json();
-        console.log("Loaded menu API:", json);
-        setMenuData(json);
-      } catch (err) {
-        console.error("Failed to load menu API:", err);
-      }
-    }
-
-    loadMenu();
-  }, []);
-
-  // NEW: Converts JSON meal groups → FoodItem[]
-  function convertMealToFoodItems(mealName: string): FoodItem[] {
-    if (!menuData) return [];
-
-    const meal = menuData.find(
-      (m: any) => m.name.toUpperCase() === mealName.toUpperCase()
-    );
-
-    if (!meal) return [];
-
-    const items: FoodItem[] = [];
-    //Some dummy images for a few meals
-    const images={
-      "Genoa Salami":"https://myfavouritepastime.com/wp-content/uploads/2015/09/maestro-hot-genoa-salami-myfavouritepastime-com_6723.jpg",
-      "Parmesan Panko Crusted Tilapia":"https://serpapi.com/searches/69383e77484c096bf7893246/images/6dde57c4a5cbb973a182c2bfd4682ddf1d2e14bca33d5957ed4ee5c4fee1cf30.jpeg",
-      "Cavatappi Pasta":"https://www.garnishandglaze.com/wp-content/uploads/2016/02/Cavatappi-4.jpg",
-      "Smoked Ham":"https://storage.googleapis.com/grazecart-images-prod/images/d83da4ac-9b7a-44f8-aa9b-0b0fb899e7b8.jpg",
-      "Deli Turkey Breast":"https://www.paulinamarket.com/cdn/shop/products/deliturkey.jpg",
-      "Chicken Salad":"https://www.herwholesomekitchen.com/wp-content/uploads/2021/03/chickensalad.jpg",
-      "Iced Chocolate Cake":"https://i1.wp.com/www.scientificallysweet.com/wp-content/uploads/2020/09/IMG_4087-feature-1.jpg",
-      "Pumpkin Pie":"https://tastesbetterfromscratch.com/wp-content/uploads/2022/10/PumpkinPie2-2.jpg"
-
-
-    }
-    meal.groups.forEach((group: any) => {
-      group.items.forEach((item: any) => {
-        console.log(group.name);
-        if(group.name!= "MISCELLANEOUS"){
-        items.push({
-          id: String(item.menuItemId),
-          name: item.formalName,
-          category: group.name,
-          activeRating: Math.random()*2+3,
-          overallRating: Math.random()*2+3,
-          reviewCount: Math.floor(Math.random()*100),
-          imageUrl:images[item.formalName]  // No images yet, can be added later
-        });}
-      });
-    });
-
-    return items;
-  }
-
-  // NEW UPDATED fetchCurrentMeal that uses real menu items
+  // fetchCurrentMeal
   const fetchCurrentMeal = async (skipLoading = false) => {
   try {
     if (!skipLoading) {
@@ -294,6 +232,8 @@ export default function HomePage() {
       foodItems: foodItems
     };
 
+    setCurrentMeal(mockData);
+
     } catch (err) {
       console.error("Failed to fetch meal:", err);
     } finally {
@@ -302,18 +242,13 @@ export default function HomePage() {
     }
   };
 
-  // NEW: Only fetch the current meal AFTER JSON loads
-  useEffect(() => {
-    if (menuData) fetchCurrentMeal();
-  }, [menuData]);
-
   const handleRefresh = () => {
     setRefreshing(true);
     fetchCurrentMeal(true);
   };
 
   const [pullDistance, setPullDistance] = useState(0);
-  const [isPulling, setIsPulling] = useState(false);
+  const [_isPulling, setIsPulling] = useState(false);
 
   useEffect(() => {
     fetchCurrentMeal();
