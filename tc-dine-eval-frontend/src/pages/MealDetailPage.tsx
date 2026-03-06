@@ -279,9 +279,8 @@ export default function MealDetailPage() {
 
       // Get the meal template
       const mealTemplate = mealTemplates[mealIndex] || mealTemplates[2]; // Default to Dinner
-      
+
       // Generate date based on day
-      const dayNames = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
       const today = new Date();
       const currentDay = today.getDay();
       const daysFromMonday = currentDay === 0 ? 6 : currentDay - 1;

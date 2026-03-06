@@ -87,55 +87,212 @@ export default function HomePage() {
 
   // NEW UPDATED fetchCurrentMeal that uses real menu items
   const fetchCurrentMeal = async (skipLoading = false) => {
-    if (!menuData) return; // Wait for the JSON to load
+  try {
+    if (!skipLoading) {
+      setLoading(true);
+    }
+    
+    // Simulate API delay
+    await new Promise(resolve => setTimeout(resolve, 800));
+    
+    // Determine current meal based on time
+    const now = new Date();
+    const currentHour = now.getHours();
+    const currentMinute = now.getMinutes();
+    const currentTime = currentHour + currentMinute / 60;
 
-    try {
-      if (!skipLoading) setLoading(true);
+    let mealName: string;
+    let mealTime: string;
+    let mealRating: number;
+    let foodItems: FoodItem[];
 
-      await new Promise(resolve => setTimeout(resolve, 300));
-
-      const now = new Date();
-      const currentHour = now.getHours();
-      const currentMinute = now.getMinutes();
-      const currentTime = currentHour + currentMinute / 60;
-      //const currentTime = 11.5;
-
-      let mealName = "Dining Hall Closed";
-      let mealTime = "Next meal: Check schedule";
-      let mealRating = 0;
-      let foodItems: FoodItem[] = [];
-
-      if (currentTime >= 7 && currentTime < 10) {
-        mealName = "Breakfast";
-        mealTime = "7:00 AM – 10:00 AM";
-        mealRating = 4.0;
-        foodItems = convertMealToFoodItems("BREAKFAST");
-      }
-      else if (currentTime >= 10 && currentTime < 17) {
-        mealName = "Lunch";
-        mealTime = "11:30 AM – 2:00 PM";
-        mealRating = 4.3;
-        foodItems = convertMealToFoodItems("LUNCH");
-      }
-      else if (currentTime >= 17 && currentTime < 20) {
-        mealName = "Dinner";
-        mealTime = "5:00 PM – 8:00 PM";
-        mealRating = 4.2;
-        foodItems = convertMealToFoodItems("DINNER");
-      }
-      else if (currentTime >= 20 && currentTime < 23) {
-        mealName = "Late Night";
-        mealTime = "9:00 PM – 11:00 PM";
-        mealRating = 3.8;
-        foodItems = convertMealToFoodItems("LATE NIGHT");
-      }
-
-      setCurrentMeal({
-        name: mealName,
-        time: mealTime,
-        rating: mealRating,
-        foodItems
-      });
+    // Determine which meal it is
+    if (currentTime >= 7 && currentTime < 10) {
+      // Breakfast: 7:00 AM - 10:00 AM
+      mealName = 'Breakfast';
+      mealTime = '7:00 AM - 10:00 AM';
+      mealRating = 4.0;
+      foodItems = [
+        {
+          id: "b1",
+          name: "Scrambled Eggs",
+          category: "Protein",
+          activeRating: 4.2,
+          overallRating: 4.1,
+          reviewCount: 34,
+          imageUrl: "https://www.allrecipes.com/thmb/0VXMwCY9RVNrNvWcF_9v0iZpNqA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/JF_241160_CreamyCottageCheeseScrambled_4x3_12902-619d00dc88594ea9b8ed884a108db16d.jpg"
+        },
+        {
+          id: "b2",
+          name: "Pancakes",
+          category: "Entrees",
+          activeRating: 4.5,
+          overallRating: 4.4,
+          reviewCount: 52,
+          imageUrl: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400"
+        },
+        {
+          id: "b3",
+          name: "Fresh Fruit Bowl",
+          category: "Sides",
+          activeRating: 4.3,
+          overallRating: 4.3,
+          reviewCount: 28,
+          imageUrl: "https://images.unsplash.com/photo-1564093497595-593b96d80180?w=400"
+        },
+        {
+          id: "b4",
+          name: "Bacon Strips",
+          category: "Protein",
+          activeRating: 4.6,
+          overallRating: 4.5,
+          reviewCount: 41,
+          imageUrl: "https://images.unsplash.com/photo-1528607929212-2636ec44253e?w=400"
+        }
+      ];
+    } else if (currentTime >= 11.5 && currentTime < 14) {
+      // Lunch: 11:30 AM - 2:00 PM
+      mealName = 'Lunch';
+      mealTime = '11:30 AM - 2:00 PM';
+      mealRating = 4.3;
+      foodItems = [
+        {
+          id: "l1",
+          name: "Turkey Sandwich",
+          category: "Entrees",
+          activeRating: 4.4,
+          overallRating: 4.2,
+          reviewCount: 45,
+          imageUrl: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=400"
+        },
+        {
+          id: "l2",
+          name: "Garden Salad",
+          category: "Salads",
+          activeRating: 4.1,
+          overallRating: 4.0,
+          reviewCount: 38,
+          imageUrl: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400"
+        },
+        {
+          id: "l3",
+          name: "Tomato Soup",
+          category: "Sides",
+          activeRating: 4.5,
+          overallRating: 4.4,
+          reviewCount: 42,
+          imageUrl: "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=400"
+        },
+        {
+          id: "l4",
+          name: "Chicken Wrap",
+          category: "Entrees",
+          activeRating: 4.3,
+          overallRating: 4.2,
+          reviewCount: 39,
+          imageUrl: "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=400"
+        }
+      ];
+    } else if (currentTime >= 17 && currentTime < 20) {
+      // Dinner: 5:00 PM - 8:00 PM
+      mealName = 'Dinner';
+      mealTime = '5:00 PM - 8:00 PM';
+      mealRating = 4.2;
+      foodItems = [
+        {
+          id: "1",
+          name: "Grilled Chicken Breast",
+          category: "Protein",
+          activeRating: 4.5,
+          overallRating: 4.3,
+          reviewCount: 47,
+          imageUrl: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400"
+        },
+        {
+          id: "2",
+          name: "Caesar Salad",
+          category: "Salads",
+          activeRating: 4.2,
+          overallRating: 4.4,
+          reviewCount: 32,
+          imageUrl: "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=400"
+        },
+        {
+          id: "3",
+          name: "Pasta Marinara",
+          category: "Entrees",
+          activeRating: 3.8,
+          overallRating: 3.9,
+          reviewCount: 56,
+          imageUrl: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400"
+        },
+        {
+          id: "4",
+          name: "Chocolate Cake",
+          category: "Desserts",
+          activeRating: 4.7,
+          overallRating: 4.6,
+          reviewCount: 89,
+          imageUrl: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400"
+        }
+      ];
+    } else if (currentTime >= 21 && currentTime < 23) {
+      // Late Night: 9:00 PM - 11:00 PM
+      mealName = 'Late Night';
+      mealTime = '9:00 PM - 11:00 PM';
+      mealRating = 3.8;
+      foodItems = [
+        {
+          id: "ln1",
+          name: "Chicken Tenders",
+          category: "Protein",
+          activeRating: 4.0,
+          overallRating: 3.9,
+          reviewCount: 35,
+          imageUrl: "https://images.unsplash.com/photo-1562967914-608f82629710?w=400"
+        },
+        {
+          id: "ln2",
+          name: "French Fries",
+          category: "Sides",
+          activeRating: 3.8,
+          overallRating: 3.7,
+          reviewCount: 48,
+          imageUrl: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400"
+        },
+        {
+          id: "ln3",
+          name: "Ice Cream",
+          category: "Desserts",
+          activeRating: 4.2,
+          overallRating: 4.3,
+          reviewCount: 52,
+          imageUrl: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+        },
+        {
+          id: "ln4",
+          name: "Pizza Slice",
+          category: "Entrees",
+          activeRating: 4.1,
+          overallRating: 4.0,
+          reviewCount: 44,
+          imageUrl: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400"
+        }
+      ];
+    } else {
+      // Outside meal times - show next upcoming meal or dinner as default
+      mealName = 'Dining Hall Closed';
+      mealTime = 'Next meal: Check schedule';
+      mealRating = 0;
+      foodItems = [];
+    }
+    
+    const mockData: Meal = {
+      name: mealName,
+      time: mealTime,
+      rating: mealRating,
+      foodItems: foodItems
+    };
 
     } catch (err) {
       console.error("Failed to fetch meal:", err);
@@ -154,6 +311,66 @@ export default function HomePage() {
     setRefreshing(true);
     fetchCurrentMeal(true);
   };
+
+  const [pullDistance, setPullDistance] = useState(0);
+  const [isPulling, setIsPulling] = useState(false);
+
+  useEffect(() => {
+    fetchCurrentMeal();
+  }, []);
+
+  // Pull-to-refresh for touch devices
+  useEffect(() => {
+    let touchStartY = 0;
+    let isDragging = false;
+
+    const handleTouchStart = (e: TouchEvent) => {
+      if (window.scrollY === 0 && !refreshing && !isDragging) {
+        touchStartY = e.touches[0].clientY;
+        isDragging = true;
+        setIsPulling(true);
+        setPullDistance(0);
+      }
+    };
+
+    const handleTouchMove = (e: TouchEvent) => {
+      if (!isDragging || refreshing) return;
+
+      const currentY = e.touches[0].clientY;
+      const deltaY = currentY - touchStartY;
+
+      if (deltaY > 0) {
+        // Pulling down
+        setPullDistance(Math.min(deltaY * 0.5, 120)); // Scale and limit the distance
+        e.preventDefault(); // Prevent default scroll behavior
+      }
+    };
+
+    const handleTouchEnd = () => {
+      if (!isDragging) return;
+
+      isDragging = false;
+      setIsPulling(false);
+
+      if (pullDistance > 80) { // Threshold for triggering refresh
+        handleRefresh();
+      } else {
+        setPullDistance(0);
+      }
+    };
+
+    // Add event listeners
+    document.addEventListener('touchstart', handleTouchStart, { passive: false });
+    document.addEventListener('touchmove', handleTouchMove, { passive: false });
+    document.addEventListener('touchend', handleTouchEnd, { passive: true });
+
+    return () => {
+      document.removeEventListener('touchstart', handleTouchStart);
+      document.removeEventListener('touchmove', handleTouchMove);
+      document.removeEventListener('touchend', handleTouchEnd);
+    };
+  }, [refreshing]);
+
 
   const getRatingColor = (rating: number) => {
     if (rating >= 4.5) return 'high';

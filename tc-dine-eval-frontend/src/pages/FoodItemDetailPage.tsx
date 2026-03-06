@@ -435,17 +435,11 @@ export default function FoodItemDetailPage() {
       alert('Please select a rating');
       return;
     }
-    
+
     console.log('Submitting review:', { rating: newRating, message: newReview });
     setShowReviewForm(false);
     setNewRating(0);
     setNewReview('');
-  };
-
-  const getRatingColor = (rating: number) => {
-    if (rating >= 4.5) return 'high';
-    if (rating >= 3.5) return '';
-    return 'low';
   };
 
   if (loading) {
